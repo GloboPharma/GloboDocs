@@ -43,3 +43,11 @@ extra_css:
 nav:
   - Home: index.md
   - Guia de Início: guia.md
+  - 🧪 Qualidade:
+      - Normas e POPs: qualidade/normas.md
+  - 📦 Operações:
+      - Fluxo de Trabalho: operacoes/fluxo.md
+  - 💻 Tecnologia:
+      - Configurações: ti/configuracao.md
+  - 👥 RH:
+      - Integração: rh/index.md # Lembre de criar este arquivo
