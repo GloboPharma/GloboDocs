@@ -1,0 +1,45 @@
+site_name: GloboDocs - Portal de Documentação de Procedimentos Globo Pharma
+site_description: Portal de Documentação do projeto GloboDocs
+
+theme:
+  name: material
+  logo: assets/LogoLaranja.png
+  favicon: assets/favicon.png
+
+  icon:
+    repo: fontawesome/brands/github
+
+  language: pt-BR
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: orange
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+
+repo_url: https://github.com/GloboPharma/GloboDocs
+repo_name: GloboPharma/GloboDocs
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Guia de Início: guia.md
