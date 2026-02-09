@@ -29,9 +29,8 @@ theme:
   features:
     - navigation.tabs
     - navigation.instant
-    - navigation.expand
-    # navigation.tracking REMOVIDO: Isso evita que o menu abra tudo sozinho ao navegar
-    # navigation.sections REMOVIDO: Isso evita que as pastas fiquem sempre abertas como títulos
+    - navigation.prune       # MÁGICA: Esta feature remove do menu lateral itens que não pertencem à seção atual
+    - navigation.tracking    # Mantém o menu onde você está, mas sem forçar expansão total
 
 repo_url: https://github.com/GloboPharma/GloboDocs
 repo_name: GloboPharma/GloboDocs
@@ -47,7 +46,7 @@ nav:
   - 💻 Tecnologia (TI):
       - Configurações: ti/configuracao.md
       - Procedimentos:
-          - ti/procedimentos.md
+          - Introdução: ti/procedimentos.md  # Agora ele é um subitem nomeado, não o "corpo" da pasta
           - Infraestrutura:
               - Firewall: ti/infraestrutura/firewall.md
               - Servidores: ti/infraestrutura/servidores.md
