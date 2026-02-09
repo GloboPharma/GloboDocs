@@ -5,11 +5,10 @@ theme:
   name: material
   logo: assets/LogoLaranja.png
   favicon: assets/favicon.png
-
+  language: pt-BR
+  
   icon:
     repo: fontawesome/brands/github
-
-  language: pt-BR
 
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -19,7 +18,6 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Mudar para modo escuro
-
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
@@ -30,7 +28,7 @@ theme:
 
   features:
     - navigation.tabs
-    - navigation.sections
+    - navigation.expand      # Permite expandir/recolher submenus clicáveis
     - search.suggest
     - search.highlight
 
@@ -41,15 +39,23 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-
-nav:
   - Home: index.md
   - 🏭 Produção:
       - Fluxo de Trabalho: producao/fluxo.md
       - Procedimentos: producao/procedimentos.md
   - 💻 Tecnologia (TI):
       - Configurações: ti/configuracao.md
-      - Procedimentos: ti/procedimentos.md
+      - Procedimentos:
+          - Infraestrutura:
+              - Firewall: ti/infraestrutura/firewall.md
+              - Servidores: ti/infraestrutura/servidores.md
+              - Telefonia: ti/infraestrutura/telefonia.md
+          - Sistemas:
+              - SAP: ti/sistemas/sap.md
+              - BEAS: ti/sistemas/beas.md
+              - WMS: ti/sistemas/wms.md
+              - SESUITE: ti/sistemas/sesuite.md
+              - GLPI: ti/sistemas/glpi.md
   - 🛡️ Garantia da Qualidade:
       - Normas: garantia/normas.md
       - Procedimentos: garantia/procedimentos.md
