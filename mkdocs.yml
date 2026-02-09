@@ -43,10 +43,19 @@ nav:
   - 🏭 Produção:
       - Fluxo de Trabalho: producao/fluxo.md
       - Procedimentos: producao/procedimentos.md
-  - 💻 Tecnologia (TI):
-      - Configurações: ti/configuracao.md
+- 💻 Tecnologia (TI):
+      - Configurações:
+          - Introdução: ti/configuracao.md
+          - Infraestrutura:
+              - Firewall: ti/configuracao/infraestrutura/firewall.md
+              - Servidores: ti/configuracao/infraestrutura/servidores.md
+              - Telefonia: ti/configuracao/infraestrutura/telefonia.md
+          - Sistemas:
+              - SAP: ti/configuracao/sistemas/sap.md
+              - BEAS: ti/configuracao/sistemas/beas.md
+              - WMS: ti/configuracao/sistemas/wms.md
       - Procedimentos:
-          - Introdução: ti/procedimentos.md  # Agora ele é um subitem nomeado, não o "corpo" da pasta
+          - Introdução: ti/procedimentos.md
           - Infraestrutura:
               - Firewall: ti/infraestrutura/firewall.md
               - Servidores: ti/infraestrutura/servidores.md
