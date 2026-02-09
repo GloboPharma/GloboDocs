@@ -29,8 +29,6 @@ theme:
   features:
     - navigation.tabs
     - navigation.instant
-    - navigation.prune
-    - navigation.tracking
 
 repo_url: https://github.com/GloboPharma/GloboDocs
 repo_name: GloboPharma/GloboDocs
@@ -45,7 +43,6 @@ nav:
       - Procedimentos: producao/procedimentos.md
   - 💻 Tecnologia (TI):
       - Configurações:
-          - Introdução: ti/configuracao.md
           - Infraestrutura:
               - Firewall: ti/configuracao/infraestrutura/firewall.md
               - Servidores: ti/configuracao/infraestrutura/servidores.md
@@ -55,7 +52,6 @@ nav:
               - BEAS: ti/configuracao/sistemas/beas.md
               - WMS: ti/configuracao/sistemas/wms.md
       - Procedimentos:
-          - Introdução: ti/procedimentos.md
           - Infraestrutura:
               - Firewall: ti/infraestrutura/firewall.md
               - Servidores: ti/infraestrutura/servidores.md
