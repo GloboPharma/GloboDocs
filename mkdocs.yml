@@ -41,13 +41,27 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
+
+nav:
   - Home: index.md
-  - Guia de Início: guia.md
-  - 🧪 Qualidade:
-      - Normas e POPs: qualidade/normas.md
-  - 📦 Operações:
-      - Fluxo de Trabalho: operacoes/fluxo.md
-  - 💻 Tecnologia:
+  - 🏭 Produção:
+      - Fluxo de Trabalho: producao/fluxo.md
+      - Procedimentos: producao/procedimentos.md
+  - 💻 Tecnologia (TI):
       - Configurações: ti/configuracao.md
-  - 👥 RH:
-      - Integração: rh/index.md # Lembre de criar este arquivo
+      - Procedimentos: ti/procedimentos.md
+  - 🛡️ Garantia da Qualidade:
+      - Normas: garantia/normas.md
+      - Procedimentos: garantia/procedimentos.md
+  - 👥 Gente e Gestão:
+      - Normas: gentegestao/normas.md
+      - Procedimentos: gentegestao/procedimentos.md
+  - 💰 Financeiro:
+      - Normas: financeiro/normas.md
+      - Procedimentos: financeiro/procedimentos.md
+  - ⚖️ Fiscal:
+      - Normas: fiscal/normas.md
+      - Procedimentos: fiscal/procedimentos.md
+  - 🤝 Comercial:
+      - Normas: comercial/normas.md
+      - Procedimentos: comercial/procedimentos.md
