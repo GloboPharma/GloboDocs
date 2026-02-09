@@ -6,7 +6,7 @@ theme:
   logo: assets/LogoLaranja.png
   favicon: assets/favicon.png
   language: pt-BR
-  
+
   icon:
     repo: fontawesome/brands/github
 
@@ -29,6 +29,8 @@ theme:
   features:
     - navigation.tabs
     - navigation.instant
+    # navigation.expand REMOVIDO para não forçar a abertura
+    # navigation.tracking REMOVIDO para o menu não "seguir" a página abrindo as pastas
 
 repo_url: https://github.com/GloboPharma/GloboDocs
 repo_name: GloboPharma/GloboDocs
@@ -44,7 +46,7 @@ nav:
   - 💻 Tecnologia (TI):
       - Configurações:
           - Infraestrutura:
-              - Firewall: ti/configuracao/infraestrutura/firewall.md
+              - firewall: ti/configuracao/infraestrutura/firewall.md
               - Servidores: ti/configuracao/infraestrutura/servidores.md
               - Telefonia: ti/configuracao/infraestrutura/telefonia.md
           - Sistemas:
