@@ -28,9 +28,10 @@ theme:
 
   features:
     - navigation.tabs
-    - navigation.expand      # Permite expandir/recolher submenus clicáveis
-    - search.suggest
-    - search.highlight
+    - navigation.instant
+    - navigation.expand
+    # navigation.tracking REMOVIDO: Isso evita que o menu abra tudo sozinho ao navegar
+    # navigation.sections REMOVIDO: Isso evita que as pastas fiquem sempre abertas como títulos
 
 repo_url: https://github.com/GloboPharma/GloboDocs
 repo_name: GloboPharma/GloboDocs
@@ -46,6 +47,7 @@ nav:
   - 💻 Tecnologia (TI):
       - Configurações: ti/configuracao.md
       - Procedimentos:
+          - ti/procedimentos.md
           - Infraestrutura:
               - Firewall: ti/infraestrutura/firewall.md
               - Servidores: ti/infraestrutura/servidores.md
