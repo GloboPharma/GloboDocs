@@ -29,8 +29,8 @@ theme:
   features:
     - navigation.tabs
     - navigation.instant
-    - navigation.prune       # MÁGICA: Esta feature remove do menu lateral itens que não pertencem à seção atual
-    - navigation.tracking    # Mantém o menu onde você está, mas sem forçar expansão total
+    - navigation.prune
+    - navigation.tracking
 
 repo_url: https://github.com/GloboPharma/GloboDocs
 repo_name: GloboPharma/GloboDocs
@@ -43,7 +43,7 @@ nav:
   - 🏭 Produção:
       - Fluxo de Trabalho: producao/fluxo.md
       - Procedimentos: producao/procedimentos.md
-- 💻 Tecnologia (TI):
+  - 💻 Tecnologia (TI):
       - Configurações:
           - Introdução: ti/configuracao.md
           - Infraestrutura:
