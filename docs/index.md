@@ -23,4 +23,5 @@ Procedimentos bem documentados transformam conhecimento tácito em ativos estrat
 A responsabilidade pela manutenção e atualização do GloboDocs é **compartilhada**. Cada área envolvida deve garantir que este repositório reflita a realidade operacional e suporte a evolução tecnológica da nossa organização.
 
 ---
+
 **Explore o menu lateral para aceder às categorias de procedimentos e configurações.**
