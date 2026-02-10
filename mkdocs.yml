@@ -6,10 +6,8 @@ theme:
   logo: assets/LogoLaranja.png
   favicon: assets/favicon.png
   language: pt-BR
-
   icon:
     repo: fontawesome/brands/github
-
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -25,12 +23,9 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Mudar para modo claro
-
   features:
     - navigation.tabs
     - navigation.instant
-    # navigation.expand REMOVIDO para não forçar a abertura
-    # navigation.tracking REMOVIDO para o menu não "seguir" a página abrindo as pastas
 
 repo_url: https://github.com/GloboPharma/GloboDocs
 repo_name: GloboPharma/GloboDocs
@@ -44,15 +39,7 @@ nav:
       - Fluxo de Trabalho: producao/fluxo.md
       - Procedimentos: producao/procedimentos.md
   - 💻 Tecnologia (TI):
-      - Configurações:
-          - Infraestrutura:
-              - firewall: ti/configuracao/infraestrutura/firewall.md
-              - Servidores: ti/configuracao/infraestrutura/servidores.md
-              - Telefonia: ti/configuracao/infraestrutura/telefonia.md
-          - Sistemas:
-              - SAP: ti/configuracao/sistemas/sap.md
-              - BEAS: ti/configuracao/sistemas/beas.md
-              - WMS: ti/configuracao/sistemas/wms.md
+      - Configurações: ti/configuracao.md
       - Procedimentos:
           - Infraestrutura:
               - Firewall: ti/infraestrutura/firewall.md
