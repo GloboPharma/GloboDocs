@@ -1,17 +1,26 @@
-# Bem-vindo ao GloboDocs
+# Bem-vindo ao GloboDocs 🚀
 
-## Importância da Documentação de Procedimentos de TI
+![Documentação de Infraestrutura de TI](https://masuporte.com.br/wp-content/uploads/2024/02/Como-documentar-sua-infraestrutura-de-TI1.webp)
 
-A documentação adequada dos procedimentos de Tecnologia da Informação é um elemento crítico para a continuidade operacional, padronização de atividades e mitigação de riscos organizacionais. Em ambientes corporativos — especialmente regulados — processos não documentados representam dependência de conhecimento tácito, aumentando a exposição a falhas operacionais e perda de know-how.
+A documentação eficaz dos procedimentos de Tecnologia da Informação (TI) é a espinha dorsal para qualquer organização que busca **excelência operacional e segurança**. No ambiente dinâmico da Globo Pharma, onde a precisão e a conformidade são cruciais, a clareza dos processos de TI é um fator decisivo para o nosso sucesso.
 
-A formalização dos procedimentos permite:
+Este portal, **GloboDocs**, é o seu repositório centralizado, projetado para ser a fonte única e confiável de todo o conhecimento técnico e operacional da nossa TI.
 
-- Garantir rastreabilidade e auditoria de ações
-- Reduzir tempo de resposta em incidentes
-- Facilitar onboarding e transferência de conhecimento
-- Assegurar conformidade com requisitos regulatórios e de qualidade
-- Promover padronização e governança operacional
+## Por que documentar é fundamental?
 
-Este portal foi estruturado como repositório central de conhecimento técnico e operacional, consolidando diretrizes, instruções e fluxos de execução necessários para a sustentação dos serviços de TI.
+Procedimentos bem documentados transformam conhecimento tácito em ativos estratégicos, garantindo:
 
-A manutenção e atualização contínua desta documentação é responsabilidade compartilhada entre as áreas envolvidas, garantindo que os processos reflitam a realidade operacional e suportem a evolução tecnológica da organização.
+* **🛡️ Rastreabilidade e Auditoria:** Registro de cada passo para conformidade regulatória.
+* **⚡ Eficiência na Resposta:** Redução do tempo de resolução de incidentes com guias claros.
+* **📚 Onboarding Acelerado:** Facilita a transferência de conhecimento para novos colaboradores.
+* **⚖️ Conformidade e Qualidade:** Alinhamento com as diretrizes de qualidade da Globo Pharma.
+* **⚙️ Padronização e Governança:** Execução consistente de tarefas, minimizando riscos.
+
+> **"A documentação adequada é o que garante a continuidade do negócio diante de imprevistos."**
+
+## Manutenção e Evolução
+
+A responsabilidade pela manutenção e atualização do GloboDocs é **compartilhada**. Cada área envolvida deve garantir que este repositório reflita a realidade operacional e suporte a evolução tecnológica da nossa organização.
+
+---
+**Explore o menu lateral para aceder às categorias de procedimentos e configurações.**
