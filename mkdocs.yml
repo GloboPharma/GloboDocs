@@ -35,34 +35,51 @@ extra_css:
 
 nav:
   - Home: index.md
+
+  - 🧭 Governança:
+      - Escopo: governanca/escopo.md
+      - Matriz RACI: governanca/raci.md
+      - Gestão de Mudanças: governanca/change.md
+
   - 🏭 Produção:
       - Fluxo de Trabalho: producao/fluxo.md
       - Procedimentos: producao/procedimentos.md
+
   - 💻 Tecnologia (TI):
-      - Configurações: ti/configuracao.md
-      - Procedimentos:
+      - Configurações:
+          - Geral: ti/configuracao.md
           - Infraestrutura:
               - Firewall: ti/infraestrutura/firewall.md
               - Servidores: ti/infraestrutura/servidores.md
               - Telefonia: ti/infraestrutura/telefonia.md
+
+      - Procedimentos:
           - Sistemas:
               - SAP: ti/sistemas/sap.md
               - BEAS: ti/sistemas/beas.md
               - WMS: ti/sistemas/wms.md
               - SESUITE: ti/sistemas/sesuite.md
               - GLPI: ti/sistemas/glpi.md
+              - SURICATO: ti/sistemas/suricato.md
+              - STARSOFT: ti/sistemas/starsoft.md
+              - COGTIVE: ti/sistemas/cogtive.md
+
   - 🛡️ Garantia da Qualidade:
       - Normas: garantia/normas.md
       - Procedimentos: garantia/procedimentos.md
+
   - 👥 Gente e Gestão:
       - Normas: gentegestao/normas.md
       - Procedimentos: gentegestao/procedimentos.md
+
   - 💰 Financeiro:
       - Normas: financeiro/normas.md
       - Procedimentos: financeiro/procedimentos.md
+
   - ⚖️ Fiscal:
       - Normas: fiscal/normas.md
       - Procedimentos: fiscal/procedimentos.md
+
   - 🤝 Comercial:
       - Normas: comercial/normas.md
       - Procedimentos: comercial/procedimentos.md
