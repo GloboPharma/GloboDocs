@@ -20,6 +20,10 @@
 
 }
 
+/*.md-nav__item--active > .md-nav {
+    display: none !important;
+}*/
+
 /* Variáveis globais do tema */
 :root {
     --md-primary-fg-color: #EC5D42;

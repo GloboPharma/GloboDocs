@@ -26,12 +26,29 @@ theme:
   features:
     - navigation.tabs
     - navigation.instant
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
 
 repo_url: https://github.com/GloboPharma/GloboDocs
 repo_name: GloboPharma/GloboDocs
 
 extra_css:
   - stylesheets/extra.css
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
 
 nav:
   - Home: index.md
@@ -40,30 +57,46 @@ nav:
       - Escopo: governanca/escopo.md
       - Matriz RACI: governanca/raci.md
       - Gestão de Mudanças: governanca/change.md
-
+      - GAP Analysis: governanca/gap-analysis.md
+      - Templates:
+          - Infraestrutura:
+              - Modelo Procedimento Infra: governanca/templates/infraestrutura/modelo-procedimento-infraestrutura.md
+              - Modelo Configuração Infra: governanca/templates/infraestrutura/modelo-configuracao-infraestrutura.md
+          - Sistemas:
+              - Modelo Procedimento Sistemas: governanca/templates/sistemas/modelo-procedimento-sistemas.md
+              - Modelo Configuração Sistemas: governanca/templates/sistemas/modelo-configuracao-sistemas.md
   - 🏭 Produção:
       - Fluxo de Trabalho: producao/fluxo.md
       - Procedimentos: producao/procedimentos.md
-
   - 💻 Tecnologia (TI):
-      - Configurações:
-          - Geral: ti/configuracao.md
-          - Infraestrutura:
-              - Firewall: ti/infraestrutura/firewall.md
-              - Servidores: ti/infraestrutura/servidores.md
-              - Telefonia: ti/infraestrutura/telefonia.md
-
-      - Procedimentos:
-          - Sistemas:
-              - SAP: ti/sistemas/sap.md
-              - BEAS: ti/sistemas/beas.md
-              - WMS: ti/sistemas/wms.md
-              - SESUITE: ti/sistemas/sesuite.md
-              - GLPI: ti/sistemas/glpi.md
-              - SURICATO: ti/sistemas/suricato.md
-              - STARSOFT: ti/sistemas/starsoft.md
-              - COGTIVE: ti/sistemas/cogtive.md
-
+      - Infraestrutura:
+          - Procedimentos:
+              - Firewall: ti/infraestrutura/procedimentos/firewall.md
+              - Servidores: ti/infraestrutura/procedimentos/servidores.md
+              - Telefonia: ti/infraestrutura/procedimentos/telefonia.md
+          - Configurações:
+              - Firewall: ti/infraestrutura/configuracoes/firewall.md
+              - Servidores: ti/infraestrutura/configuracoes/servidores.md
+              - Telefonia: ti/infraestrutura/configuracoes/telefonia.md
+      - Sistemas:
+          - Procedimentos:
+              - SAP: ti/sistemas/procedimentos/sap.md
+              - BEAS: ti/sistemas/procedimentos/beas.md
+              - WMS: ti/sistemas/procedimentos/wms.md
+              - SESUITE: ti/sistemas/procedimentos/sesuite.md
+              - GLPI: ti/sistemas/procedimentos/glpi.md
+              - SURICATO: ti/sistemas/procedimentos/suricato.md
+              - STARSOFT: ti/sistemas/procedimentos/starsoft.md
+              - COGTIVE: ti/sistemas/procedimentos/cogtive.md
+          - Configurações:
+              - SAP: ti/sistemas/configuracoes/sap.md
+              - BEAS: ti/sistemas/configuracoes/beas.md
+              - WMS: ti/sistemas/configuracoes/wms.md
+              - SESUITE: ti/sistemas/configuracoes/sesuite.md
+              - GLPI: ti/sistemas/configuracoes/glpi.md
+              - SURICATO: ti/sistemas/configuracoes/suricato.md
+              - STARSOFT: ti/sistemas/configuracoes/starsoft.md
+              - COGTIVE: ti/sistemas/configuracoes/cogtive.md
   - 🛡️ Garantia da Qualidade:
       - Normas: garantia/normas.md
       - Procedimentos: garantia/procedimentos.md
