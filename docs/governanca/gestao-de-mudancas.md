@@ -1,0 +1,61 @@
+# Gestão de Mudanças (Change Management)
+
+O objetivo da **Gestão de Mudanças** na Globo Pharma é garantir que métodos e p>
+
+## 🎯 Objetivos do Processo
+
+* **Minimizar Riscos:** Avaliar o impacto de cada mudança antes de sua execução.
+* **Transparência:** Garantir que todas as áreas afetadas sejam comunicadas.
+* **Rastreabilidade:** Manter um histórico auditável de quem, quando e por que >
+* **Sucesso na Execução:** Reduzir o número de mudanças que precisam ser revert>
+
+---
+
+## 🚦 Tipos de Mudança
+
+No portal **GloboDocs**, classificamos as mudanças em três categorias:
+
+1.  **Mudança Padrão:** Mudanças de baixo risco, pré-autorizadas e que seguem u>
+2.  **Mudança Normal:** Segue o fluxo completo de avaliação, planejamento e apr>
+3.  **Mudança de Emergência:** Implementada o mais rápido possível para resolve>
+
+---
+
+## 🛠️ Fluxo de Aprovação
+
+Para que uma mudança seja implementada, ela deve seguir as etapas abaixo:
+
+### 1. Registro da Requisição de Mudança (RFC)
+Toda mudança deve ser documentada contendo:
+* Descrição da alteração.
+* Justificativa (motivo da mudança).
+* Plano de Implementação.
+* **Plano de Contingência (Rollback):** Como voltar ao estado anterior se algo >
+
+### 2. Avaliação e Aprovação
+Dependendo da criticidade, a mudança deve ser aprovada pelo **Comitê de Control>
+
+**"Papéis e Responsabilidades"**
+    A aprovação de mudanças estratégicas segue a **Matriz RACI** definida na se>
+
+---
+
+## 📝 Ciclo de Vida da Mudança
+
+| Fase | Descrição | Responsável |
+| :--- | :--- | :---: |
+| **Planejamento** | Definição técnica e análise de impacto. | **R** |
+| **Aprovação** | Validação da gerência ou comitê. | **A** |
+| **Execução** | Implementação técnica da alteração. | **R** |
+| **Pós-Implementação** | Verificação de sucesso e encerramento. | **R/A** |
+
+---
+
+## ⚠️ Plano de Rollback
+
+É obrigatório que toda mudança "Normal" ou "Emergencial" possua um plano de rev>
+
+---
+_Última atualização: 2026_
+
+

@@ -1,8 +1,1 @@
-# Sistemas
-
-Documentação técnica dos sistemas corporativos.
-
-## Estrutura
-
-- Procedimentos
-- Configurações
+# Sistemas de TI

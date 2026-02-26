@@ -8,7 +8,7 @@
 |-------|------------|
 | Código | TI-INF-PRC-XXX |
 | Versão | 1.0 |
-| Data | YYYY-MM-DD |
+| Data | DD-MM-AAAA |
 | Tipo | Infraestrutura |
 | Serviço | Firewall / Servidor / Telefonia |
 | Responsável |  |
@@ -26,10 +26,7 @@ Descrever o objetivo técnico-operacional.
 
 Infraestrutura impactada:
 
-- Servidores
-- Rede
-- Storage
-- Firewall
+Descrever o impacto na infraestrutura como exemplo, servidores, desktops, rede, switches, etc..
 
 ---
 
@@ -78,3 +75,4 @@ Passo técnico para reversão.
 
 | Versão | Data | Alteração | Autor |
 |--------|------|-----------|-------|
+

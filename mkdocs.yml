@@ -1,41 +1,49 @@
-site_name: GloboDocs - Portal de Documentação de Procedimentos Globo Pharma
-site_description: Portal de Documentação do projeto GloboDocs
+site_name: GloboDocs
+site_description: Portal Corporativo de Documentação e Base de Conhecimento - Globo Pharma
+site_author: TI Corporativa
+site_url: https://github.com/GloboPharma/GloboDocs
+
+repo_url: https://github.com/GloboPharma/GloboDocs
+repo_name: GloboPharma/GloboDocs
+edit_uri: edit/main/docs/
 
 theme:
   name: material
   logo: assets/LogoLaranja.png
   favicon: assets/favicon.png
   language: pt-BR
-  icon:
-    repo: fontawesome/brands/github
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: orange
-      accent: orange
-      toggle:
-        icon: material/brightness-7
-        name: Mudar para modo escuro
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Mudar para modo claro
-  features:
-    - navigation.tabs
-    - navigation.instant
-    - navigation.top
-    - search.highlight
-    - content.code.copy
-    - content.tabs.link
 
-repo_url: https://github.com/GloboPharma/GloboDocs
-repo_name: GloboPharma/GloboDocs
+  palette:
+    - scheme: default
+      primary: white
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Modo escuro
+    - scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+features:
+  - navigation.instant
+  - navigation.tracking
+  - navigation.top
+  - toc.integrate
+  - search.highlight
+  - search.suggest
+  - content.code.copy
+
+plugins:
+  - search
+
+extra:
+  generator: false
 
 extra_css:
   - stylesheets/extra.css
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -53,22 +61,14 @@ markdown_extensions:
 nav:
   - Home: index.md
 
-  - 🧭 Governança:
+  - Governança:
       - Escopo: governanca/escopo.md
-      - Matriz RACI: governanca/raci.md
-      - Gestão de Mudanças: governanca/change.md
+      - Gestão de Mudanças: governanca/gestao-de-mudancas.md
+      - Matriz RACI: governanca/matriz-raci.md
       - GAP Analysis: governanca/gap-analysis.md
-      - Templates:
-          - Infraestrutura:
-              - Modelo Procedimento Infra: governanca/templates/infraestrutura/modelo-procedimento-infraestrutura.md
-              - Modelo Configuração Infra: governanca/templates/infraestrutura/modelo-configuracao-infraestrutura.md
-          - Sistemas:
-              - Modelo Procedimento Sistemas: governanca/templates/sistemas/modelo-procedimento-sistemas.md
-              - Modelo Configuração Sistemas: governanca/templates/sistemas/modelo-configuracao-sistemas.md
-  - 🏭 Produção:
-      - Fluxo de Trabalho: producao/fluxo.md
-      - Procedimentos: producao/procedimentos.md
-  - 💻 Tecnologia (TI):
+      - Política de Documentação: governanca/politica-de-documentacao.md
+
+  - Tecnologia:
       - Infraestrutura:
           - Procedimentos:
               - Firewall: ti/infraestrutura/procedimentos/firewall.md
@@ -80,39 +80,57 @@ nav:
               - Telefonia: ti/infraestrutura/configuracoes/telefonia.md
       - Sistemas:
           - Procedimentos:
-              - SAP: ti/sistemas/procedimentos/sap.md
-              - BEAS: ti/sistemas/procedimentos/beas.md
+              - Beas: ti/sistemas/procedimentos/beas.md
+              - Cogtive: ti/sistemas/procedimentos/cogtive.md
+              - Glpi: ti/sistemas/procedimentos/glpi.md
+              - Sap: ti/sistemas/procedimentos/sap.md
+              - Sesuite: ti/sistemas/procedimentos/sesuite.md
+              - Starsoft: ti/sistemas/procedimentos/starsoft.md
+              - Suricato: ti/sistemas/procedimentos/suricato.md
               - WMS: ti/sistemas/procedimentos/wms.md
-              - SESUITE: ti/sistemas/procedimentos/sesuite.md
-              - GLPI: ti/sistemas/procedimentos/glpi.md
-              - SURICATO: ti/sistemas/procedimentos/suricato.md
-              - STARSOFT: ti/sistemas/procedimentos/starsoft.md
-              - COGTIVE: ti/sistemas/procedimentos/cogtive.md
           - Configurações:
-              - SAP: ti/sistemas/configuracoes/sap.md
-              - BEAS: ti/sistemas/configuracoes/beas.md
+              - Beas: ti/sistemas/configuracoes/beas.md
+              - Cogtive: ti/sistemas/configuracoes/cogtive.md
+              - Glpi: ti/sistemas/configuracoes/glpi.md
+              - Sap: ti/sistemas/configuracoes/sap.md
+              - Sesuite: ti/sistemas/configuracoes/sesuite.md
+              - Starsoft: ti/sistemas/configuracoes/starsoft.md
+              - Suricato: ti/sistemas/configuracoes/suricato.md
               - WMS: ti/sistemas/configuracoes/wms.md
-              - SESUITE: ti/sistemas/configuracoes/sesuite.md
-              - GLPI: ti/sistemas/configuracoes/glpi.md
-              - SURICATO: ti/sistemas/configuracoes/suricato.md
-              - STARSOFT: ti/sistemas/configuracoes/starsoft.md
-              - COGTIVE: ti/sistemas/configuracoes/cogtive.md
-  - 🛡️ Garantia da Qualidade:
-      - Normas: garantia/normas.md
-      - Procedimentos: garantia/procedimentos.md
 
-  - 👥 Gente e Gestão:
-      - Normas: gentegestao/normas.md
-      - Procedimentos: gentegestao/procedimentos.md
+  - Produção:
+      - Procedimentos: producao/procedimentos/index.md
+      - Normas: producao/normas/index.md
 
-  - 💰 Financeiro:
-      - Normas: financeiro/normas.md
-      - Procedimentos: financeiro/procedimentos.md
+  - Qualidade:
+      - Normas: qualidade/normas/index.md
+      - Procedimentos: qualidade/procedimentos/index.md
+      - Registros: qualidade/registros/index.md
 
-  - ⚖️ Fiscal:
-      - Normas: fiscal/normas.md
-      - Procedimentos: fiscal/procedimentos.md
+  - Financeiro:
+      - Normas: financeiro/normas/index.md
+      - Procedimentos: financeiro/procedimentos/index.md
 
-  - 🤝 Comercial:
-      - Normas: comercial/normas.md
-      - Procedimentos: comercial/procedimentos.md
+  - Fiscal:
+      - Normas: fiscal/normas/index.md
+      - Procedimentos: fiscal/procedimentos/index.md
+
+  - Comercial:
+      - Normas: comercial/normas/index.md
+      - Procedimentos: comercial/procedimentos/index.md
+
+  - Gente e Gestão:
+      - Normas: gente-e-gestao/normas/index.md
+      - Procedimentos: gente-e-gestao/procedimentos/index.md
+
+  - Templates:
+      - Modelo de Procedimento: templates/modelo-procedimento.md
+      - Modelo de Configuração: templates/modelo-configuracao.md
+      - Modelo de Norma: templates/modelo-norma.md
+      - Modelo de Checklist: templates/modelo-checklist.md
+
+  - Base de Conhecimento:
+      - FAQ: base-de-conhecimento/faq.md
+      - Troubleshooting: base-de-conhecimento/troubleshooting.md
+      - Boas Práticas: base-de-conhecimento/boas-praticas.md
+      - Glossário: base-de-conhecimento/glossario.md

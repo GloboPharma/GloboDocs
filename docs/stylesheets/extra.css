@@ -1,33 +1,62 @@
-/* ===== Logo ===== */
-.md-header__button.md-logo img {
-    height: 54px;
-}
+/* =========================
+   GloboDocs - Corporate Clean
+   ========================= */
 
-/* ===== Branding Globo Pharma ===== */
-
-/* Header principal */
+/* Header minimalista */
 .md-header {
-  /*  background-color: #EC5D42 !important;*/
-
-  background-color: #FA4516 !important;
-
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #e5e7eb;
 }
 
-/* Barra de navegação */
+/* Remove laranja agressivo */
 .md-tabs {
-   /* background-color: #EC5D42 !important;*/
-  background-color: #FA4516 !important;
-
+    background-color: #f9fafb !important;
+    border-bottom: 1px solid #e5e7eb;
 }
 
-/*.md-nav__item--active > .md-nav {
-    display: none !important;
-}*/
+/* Logo proporcional */
+.md-header__button.md-logo img {
+    height: 50px;
+}
 
-/* Variáveis globais do tema */
-:root {
-    --md-primary-fg-color: #EC5D42;
-    --md-primary-fg-color--light: #f07a62;
-    --md-primary-fg-color--dark: #c94a33;
-    --md-accent-fg-color: #EC5D42;
+/* Tipografia institucional */
+.md-typeset h1 {
+    font-weight: 600;
+    color: #111827;
+}
+
+.md-typeset h2 {
+    font-weight: 500;
+    color: #1f2937;
+}
+
+/* Links corporativos */
+.md-typeset a {
+    color: #FA4516;
+}
+
+.md-typeset a:hover {
+    color: #c2410c;
+}
+
+/* Sidebar mais limpa */
+.md-nav__title {
+    font-weight: 600;
+}
+
+/* Caixa de código elegante */
+.md-typeset pre code {
+    border-radius: 6px;
+}
+
+/* Admonitions mais sóbrias */
+.md-typeset .admonition {
+    border-radius: 6px;
+}
+
+/* Footer profissional */
+.md-footer {
+    background-color: #f3f4f6;
+    color: #6b7280;
+    font-size: 0.75rem;
 }
