@@ -115,6 +115,10 @@ nav:
       - Normas: fiscal/normas/index.md
       - Procedimentos: fiscal/procedimentos/index.md
 
+  - Expedicao:
+      - Normas: expedicao/normas.md
+      - Procedimentos: expedicao/procedimento.md
+
   - Comercial:
       - Normas: comercial/normas/index.md
       - Procedimentos: comercial/procedimentos/index.md
