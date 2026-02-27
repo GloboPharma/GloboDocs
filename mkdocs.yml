@@ -102,6 +102,13 @@ nav:
       - Procedimentos: producao/procedimentos/index.md
       - Normas: producao/normas/index.md
 
+  - Projetos:
+      - Infraestrutura:
+              - Firewall: ti/infraestrutura/firewall.md
+      - Sistemas:
+              - Beas: ti/sistemas/beas.md
+              - Cogtive: ti/sistemas/cogtive.md
+
   - Qualidade:
       - Normas: qualidade/normas/index.md
       - Procedimentos: qualidade/procedimentos/index.md
