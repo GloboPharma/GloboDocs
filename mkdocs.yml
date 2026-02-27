@@ -102,6 +102,39 @@ nav:
       - Procedimentos: producao/procedimentos/index.md
       - Normas: producao/normas/index.md
 
+  - Projetos:
+      - Infraestrutura:
+              - Controle de Cotas de Armazenamento: ti/infraestrutura/controle_cotas.md
+              - Documentação Sistêmica: ti/infraestrutura/controle_cotas.md
+              - Integração SAP/AD: ti/infraestrutura/controle_cotas.md
+              - Politicas de SI: ti/infraestrutura/controle_cotas.md
+              - Qualificação de Infraestrutura: ti/infraestrutura/controle_cotas.md
+              - Revisão de Configurações do Amebiente Bitdefender: ti/infraestrutura/controle_cotas.md
+              - Revisão de Configurações do Ambiente Google: ti/infraestrutura/controle_cotas.md
+              - Revisão de Politicas do Firewall: ti/infraestrutura/controle_cotas.md
+              - Telefonia IP: ti/infraestrutura/controle_cotas.md
+      - Helpdesk:
+              - Inventario de Softwares: ti/infraestrutura/firewall.md
+              - Laudo Equipamentos Produção: ti/infraestrutura/firewall.md
+              - Troca de Equipamentos Depreciados: ti/infraestrutura/firewall.md
+      - Sistemas:
+              - Aps: ti/sistemas/beas.md
+              - Apontamentos Parciais - Produção: ti/sistemas/beas.md
+              - BI: ti/sistemas/beas.md
+              - Caixa Fracionada - Wms: ti/sistemas/beas.md
+              - Controle de Acesso_Suricato: ti/sistemas/beas.md
+              - Controle de Despesas_Onfly: ti/sistemas/beas.md
+              - GPS: ti/sistemas/beas.md
+              - Gestão de Usuarios/IA: ti/sistemas/beas.md
+              - Integração Balanças: ti/sistemas/beas.md
+              - Integração Cogtive/SAP: ti/sistemas/beas.md
+              - Lista de Preço Neogrid: ti/sistemas//beas.md
+              - Modulo_Manutenção: ti/sistemas/beas.md
+              - OP Eletronica: ti/sistemas/beas.md
+              - Relatorio PCP: ti/sistemas/beas.md
+              - Se Suite_Gestão de Grupos de Usuários: ti/sistemas/beas.md
+              - Tabela Preço Gerencial: ti/sistemas/beas.md
+              - WMS - Fase 2: ti/sistemas/beas.md
   - Qualidade:
       - Normas: qualidade/normas/index.md
       - Procedimentos: qualidade/procedimentos/index.md
@@ -110,6 +143,12 @@ nav:
   - Financeiro:
       - Normas: financeiro/normas/index.md
       - Procedimentos: financeiro/procedimentos/index.md
+
+  - Expedição:
+      - Normas: expedicao/normas.md
+      - Procedimentos: expedicao/procedimentos.md
+
+
 
   - Fiscal:
       - Normas: fiscal/normas/index.md
