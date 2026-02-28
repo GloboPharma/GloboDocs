@@ -98,16 +98,42 @@ nav:
               - Suricato: ti/sistemas/configuracoes/suricato.md
               - WMS: ti/sistemas/configuracoes/wms.md
 
+  - Projetos:
+      - Infraestrutura:
+              - Qualificação de Infraestrutura: ti/infraestrutura/firewall.md
+              - Politicas de SI: ti/infraestrutura/firewall.md
+              - Controle de Cotas de Armazenamento: ti/infraestrutura/firewall.md
+              - Revisão de Configurações do Ambiente Google: ti/infraestrutura/firewall.md
+              - Revisão de Configurações do Amebiente Bitdefender: ti/infraestrutura/firewall.md
+              - Revisão de Politicas do Firewall: ti/infraestrutura/firewall.md
+              - Telefonia IP: ti/infraestrutura/firewall.md
+              - Integração SAP/AD: ti/infraestrutura/firewall.md
+              - Documentação Sistêmica: ti/infraestrutura/firewall.md
+      - Helpdesk:
+              - Inventario de Softwares: ti/Helpdesk/firewall.md
+              - Laudo Equipamentos Produção: ti/Helpdesk/firewall.md
+              - Troca de Equipamentos Depreciados: ti/Helpdesk/firewall.md
+      - Sistemas:
+              - Apontamentos Parciais - Produção: ti/sistemas/cogtive.md
+              - BI: ti/sistemas/cogtive.md
+              - Caixa Fracionada - WMS: ti/sistemas/cogtive.md
+              - Controle de Acesso Suricato: ti/sistemas/cogtive.md
+              - Controle de Despesas Onfly: ti/sistemas/cogtive.md
+              - GPS: ti/sistemas/cogtive.md
+              - Gestão de Usuários/IA: ti/sistemas/cogtive.md
+              - Integração Balanças: ti/sistemas/cogtive.md
+              - Integração Cogtive/SAP: ti/sistemas/cogtive.md
+              - Lista de Preço Neogrid: ti/sistemas/cogtive.md
+              - Módulo Manutenção: ti/sistemas/cogtive.md
+              - OP Eletrônica: ti/sistemas/cogtive.md
+              - Relatório PCP: ti/sistemas/cogtive.md
+              - SE Suite - Gestão de Grupos de Usuários: ti/sistemas/cogtive.md
+              - Tabela Preço Gerencial: ti/sistemas/cogtive.md
+              - WMS - Fase 2: ti/sistemas/cogtive.md
+
   - Produção:
       - Procedimentos: producao/procedimentos/index.md
       - Normas: producao/normas/index.md
-
-  - Projetos:
-      - Infraestrutura:
-              - Firewall: ti/infraestrutura/firewall.md
-      - Sistemas:
-              - Beas: ti/sistemas/beas.md
-              - Cogtive: ti/sistemas/cogtive.md
 
   - Qualidade:
       - Normas: qualidade/normas/index.md
