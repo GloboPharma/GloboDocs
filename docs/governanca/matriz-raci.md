@@ -114,8 +114,7 @@ Próxima Revisão: 2027-02
 
 Última atualização: 2026
 
-| Documento | GOV-RACI-001Versão |
-|------|--------|----------|-------------|
+| Documento | GOV-RACI-001 |
 | Owner | Gestão de TI |
 | Aprovador | Diretoria Operacional |
 | Classificação | Interno |
