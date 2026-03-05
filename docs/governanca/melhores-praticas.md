@@ -1,5 +1,4 @@
 # Boas Práticas de Documentação (Docs-as-Code)
-
 ---
 Seguir estas diretrizes garante que a documentação do GloboDocs permaneça atualizada, fácil de navegar e com aparência profissional.
 
