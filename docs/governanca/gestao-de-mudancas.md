@@ -1,6 +1,6 @@
 # Gestão de Mudanças (Change Management)
 
-O objetivo da **Gestão de Mudanças** na Globo Pharma é garantir que métodos e p>
+O objetivo da **Gestão de Mudanças** na Globo Pharma é garantir que métodos e procedimentos padronizados sejam utilizados para o tratamento eficiente e rápido de todas as alterações na infraestrutura, sistemas ou processos, minimizando o impacto de incidentes relacionados a mudanças no atendimento aos clientes e na operação.
 
 ## 🎯 Objetivos do Processo
 
