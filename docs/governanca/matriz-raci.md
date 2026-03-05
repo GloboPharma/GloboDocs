@@ -16,6 +16,7 @@ A sigla RACI é um acrônimo dos termos em inglês que definem os papéis de cad
 | **C** | **Consultado** | Quem deve ser consultado em caso de dúvidas ou mudan>
 | **I** | **Informado** | Quem deve ser notificado sobre resultados, sem necess>
 
+![alt text](https://lyncas.net/wp-content/uploads/2024/09/RACI-1024x395-1.webp)
 ---
 
 ## 📈 Benefícios do Modelo

@@ -67,8 +67,32 @@ nav:
       - Matriz RACI: governanca/matriz-raci.md
       - GAP Analysis: governanca/gap-analysis.md
       - Política de Documentação: governanca/politica-de-documentacao.md
+      - Politica de Segurança de TI: governanca/politica-de-si.md
 
-  - Tecnologia:
+  - Administrativo:
+
+    - Comercial:
+      - Normas: comercial/normas/index.md
+      - Procedimentos: comercial/procedimentos/index.md
+
+    - Financeiro:
+      - Normas: financeiro/normas/index.md
+      - Procedimentos: financeiro/procedimentos/index.md
+
+    - Fiscal:
+      - Normas: fiscal/normas/index.md
+      - Procedimentos: fiscal/procedimentos/index.md
+
+    - Gente e Gestão:
+      - Normas: gente-e-gestao/normas/index.md
+      - Procedimentos: gente-e-gestao/procedimentos/index.md
+
+    - Qualidade:
+      - Normas: qualidade/normas/index.md
+      - Procedimentos: qualidade/procedimentos/index.md
+      - Registros: qualidade/registros/index.md
+
+    - Tecnologia da Informação:
       - Infraestrutura:
           - Procedimentos:
               - Firewall: ti/infraestrutura/procedimentos/firewall.md
@@ -98,8 +122,23 @@ nav:
               - Suricato: ti/sistemas/configuracoes/suricato.md
               - WMS: ti/sistemas/configuracoes/wms.md
 
+  - Fabrica:
+
+    - Expedicao:
+      - Normas: expedicao/normas.md
+      - Procedimentos: expedicao/procedimentos.md
+
+    - Qualidade:
+      - Normas: qualidade/normas/index.md
+      - Procedimentos: qualidade/procedimentos/index.md
+      - Registros: qualidade/registros/index.md
+
+    - Produção:
+      - Procedimentos: producao/procedimentos/index.md
+      - Normas: producao/normas/index.md
+
   - Projetos:
-      - Infraestrutura:
+    - Infraestrutura:
               - Qualificação de Infraestrutura: ti/infraestrutura/firewall.md
               - Politicas de SI: ti/infraestrutura/firewall.md
               - Controle de Cotas de Armazenamento: ti/infraestrutura/firewall.md
@@ -109,11 +148,11 @@ nav:
               - Telefonia IP: ti/infraestrutura/firewall.md
               - Integração SAP/AD: ti/infraestrutura/firewall.md
               - Documentação Sistêmica: ti/infraestrutura/firewall.md
-      - Helpdesk:
+    - Helpdesk:
               - Inventario de Softwares: ti/Helpdesk/firewall.md
               - Laudo Equipamentos Produção: ti/Helpdesk/firewall.md
               - Troca de Equipamentos Depreciados: ti/Helpdesk/firewall.md
-      - Sistemas:
+    - Sistemas:
               - Apontamentos Parciais - Produção: ti/sistemas/cogtive.md
               - BI: ti/sistemas/cogtive.md
               - Caixa Fracionada - WMS: ti/sistemas/cogtive.md
@@ -131,37 +170,9 @@ nav:
               - Tabela Preço Gerencial: ti/sistemas/cogtive.md
               - WMS - Fase 2: ti/sistemas/cogtive.md
 
-  - Produção:
-      - Procedimentos: producao/procedimentos/index.md
-      - Normas: producao/normas/index.md
-
-  - Qualidade:
-      - Normas: qualidade/normas/index.md
-      - Procedimentos: qualidade/procedimentos/index.md
-      - Registros: qualidade/registros/index.md
-
-  - Financeiro:
-      - Normas: financeiro/normas/index.md
-      - Procedimentos: financeiro/procedimentos/index.md
-
-  - Fiscal:
-      - Normas: fiscal/normas/index.md
-      - Procedimentos: fiscal/procedimentos/index.md
-
-  - Expedicao:
-      - Normas: expedicao/normas.md
-      - Procedimentos: expedicao/procedimentos.md
-
-  - Comercial:
-      - Normas: comercial/normas/index.md
-      - Procedimentos: comercial/procedimentos/index.md
-
-  - Gente e Gestão:
-      - Normas: gente-e-gestao/normas/index.md
-      - Procedimentos: gente-e-gestao/procedimentos/index.md
 
   - Templates:
-      - Modelo de Procedimento: templates/modelo-procedimento.md
+      - Modelo de Procedimento: docs/_templates/configuracao.md
       - Modelo de Configuração: templates/modelo-configuracao.md
       - Modelo de Norma: templates/modelo-norma.md
       - Modelo de Checklist: templates/modelo-checklist.md
@@ -169,5 +180,5 @@ nav:
   - Base de Conhecimento:
       - FAQ: base-de-conhecimento/faq.md
       - Troubleshooting: base-de-conhecimento/troubleshooting.md
-      - Boas Práticas: base-de-conhecimento/boas-praticas.md
+      - Boas Práticas: base-conhecimento/boas-praticas.md
       - Glossário: base-de-conhecimento/glossario.md
