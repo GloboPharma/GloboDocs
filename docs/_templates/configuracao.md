@@ -1,6 +1,11 @@
 # {{NOME_DA_CONFIGURACAO}}
 
----
+
+
+!!! warning "Título do aviso"
+    Esta pagina ainda está em processo de publicação.
+    Após validação o procedimento será incluso.
+
 
 ## 1. Informações Gerais
 

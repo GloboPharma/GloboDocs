@@ -1,6 +1,6 @@
 # Bem-vindo ao GloboDocs 🚀
 
-![Documentação de Infraestrutura de TI](https://masuporte.com.br/wp-content/uploads/2024/02/Como-documentar-sua-infraestrutura-de-TI1.webp)
+![Documentação de Infraestrutura de TI](https://degrau10.com.br/wp-content/uploads/2018/11/Descri%C3%A7%C3%A3o-Servi%C3%A7os-Consultoria-em-Processos.png)
 
 A documentação eficaz dos procedimentos de Tecnologia da Informação (TI) é a espinha dorsal para qualquer organização que busca **excelência operacional e segurança**. No ambiente dinâmico da Globo Pharma, onde a precisão e a conformidade são cruciais, a clareza dos processos de TI é um fator decisivo para o nosso sucesso.
 
