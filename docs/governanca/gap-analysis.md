@@ -10,7 +10,6 @@
 ---
 
 # 1️⃣ Política Formal de Governança
-
 ## Objetivo
 Avaliar a existência, formalização e aprovação da política de governança documental aplicável à área de TI em ambiente regulado.
 
