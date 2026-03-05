@@ -53,9 +53,9 @@ Dependendo da criticidade, a mudança deve ser aprovada pelo **Comitê de Contro
 
 ## ⚠️ Plano de Rollback
 
-É obrigatório que toda mudança "Normal" ou "Emergencial" possua um plano de rev>
+É obrigatório que toda mudança "Normal" ou "Emergencial" possua um plano de reversão testado. Caso a janela de execução ultrapasse o tempo previsto ou ocorram erros críticos, a mudança deve ser interrompida e o sistema restaurado.
 
 ---
-_Última atualização: 2026_
+_Última atualização: Março - 2026_
 
 

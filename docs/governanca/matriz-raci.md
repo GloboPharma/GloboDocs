@@ -2,12 +2,11 @@
 
 ## Atribuição de Responsabilidades
 
-A **Matriz RACI** é uma ferramenta estratégica utilizada pela **Globo Pharma** >
-membro esteja ciente das atribuições que lhe foram designadas.
+A **Matriz RACI** é uma ferramenta estratégica utilizada pela **Globo Pharma** que define papéis e responsabilidades (Responsável, Autoridade/Aprovador, Consultado, Informado), garantindo clareza na execução de tarefas. Ela mapeia quem faz o trabalho, quem aprova, quem fornece conhecimento e quem é informado, evitando falhas de comunicação e sobrecarga. >
 
 ## 🧩 O que é a Matriz RACI?
 
-A sigla RACI é um acrônimo dos termos em inglês que definem os papéis de cada a>
+Antes de tudo, é interessante saber que a sigla RACI vem do inglês: Responsible, Accountable, Consulted e Informed. Cada uma dessas palavras corresponde a uma função dentro de um projeto, processo, serviço ou até mesmo no contexto de um determinado departamento. >
 
 | Sigla | Papel | Descrição | Comunicação |
 | :---: | :--- | :--- | :--- |
