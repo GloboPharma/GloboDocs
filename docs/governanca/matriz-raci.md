@@ -10,14 +10,13 @@ Antes de tudo, é interessante saber que a sigla RACI vem do inglês: Responsibl
 
 | Sigla | Papel | Descrição | Comunicação |
 | :---: | :--- | :--- | :--- |
-| **R** | **Responsável** | Quem executa efetivamente a atividade ou elemento >
-| **A** | **Autoridade** | Quem aprova formalmente a entrega e tem autoridade >
-| **C** | **Consultado** | Quem deve ser consultado em caso de dúvidas ou mudanças>
-| **I** | **Informado** | Pessoas ou grupos que precisam ser notificados sobre o progresso ou conclusão das atividades.>
+| **R** | **Responsável** | Quem executa efetivamente a atividade ou elemento 
+| **A** | **Autoridade** | Quem aprova formalmente a entrega e tem autoridade 
+| **C** | **Consultado** | Quem deve ser consultado em caso de dúvidas ou mudanças
+| **I** | **Informado** | Pessoas ou grupos que precisam ser notificados sobre o progresso ou conclusão das atividades.
 
 ![alt text](https://lyncas.net/wp-content/uploads/2024/09/RACI-1024x395-1.webp)
 ---
-
 ## 📈 Benefícios do Modelo
 
 A implementação desta matriz no **GloboDocs** traz ganhos operacionais diretos:
@@ -28,7 +27,6 @@ A implementação desta matriz no **GloboDocs** traz ganhos operacionais diretos
 * **Redução de Frustração:** Elimina o problema de não saber quem procurar para>
 
 ---
-
 ## 🛠️ Guia de Implementação
 
 Para aplicar o modelo na prática, podem ser utilizadas planilhas, editores de t>
@@ -47,7 +45,6 @@ Para aplicar o modelo na prática, podem ser utilizadas planilhas, editores de t
 * O modelo deve ser priorizado em processos críticos e de alto valor estratégic>
 
 ---
-
 ## 📝 Exemplo Prático: Sistemas (SAP / BEAS)
 
 Abaixo, um modelo de preenchimento para as tecnologias do portal:
@@ -60,7 +57,6 @@ Abaixo, um modelo de preenchimento para as tecnologias do portal:
 
 ---
 ## Atribuição de Responsabilidades
-
 ## 📚 Controle de Versão
 
 | Versão | Data | Autor | Descrição | Aprovação |
@@ -68,15 +64,13 @@ Abaixo, um modelo de preenchimento para as tecnologias do portal:
 | 1.0 | 2026-02-12 | TI Corporativo | Criação inicial | Diretoria Operacional |
 
 ---
-
 ## 🕘 Histórico de Alterações
 
 | Data | Versão | Alteração | Responsável |
 |------|--------|----------|-------------|
 | 2026-02-12 | 1.0 | Publicação inicial | Gestão de TI |
 
----
-
+--
 ## 🔐 Classificação Documental
 
 Nível: **Interno**
@@ -87,7 +81,6 @@ Nível: **Interno**
 - Armazenar apenas em repositórios corporativos
 
 ---
-
 ## 🔗 Integração com ITSM
 
 Esta matriz suporta:
@@ -100,7 +93,6 @@ Esta matriz suporta:
 Alterações devem seguir fluxo formal de Change Management.
 
 ---
-
 ## 📖 Referências Normativas
 
 - ITIL 4
@@ -121,3 +113,11 @@ Data de Vigência: 2026-02-12
 Próxima Revisão: 2027-02
 
 Última atualização: 2026
+
+| Documento | GOV-RACI-001Versão |
+|------|--------|----------|-------------|
+| Owner | Gestão de TI |
+| Aprovador | Diretoria Operacional |
+| Classificação | Interno |
+| Data de Vigência | 2026-02-12 |
+| Próxima Revisão | 2027-02 |
