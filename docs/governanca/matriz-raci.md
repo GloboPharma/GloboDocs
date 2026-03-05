@@ -10,10 +10,10 @@ Antes de tudo, é interessante saber que a sigla RACI vem do inglês: Responsibl
 
 | Sigla | Papel | Descrição | Comunicação |
 | :---: | :--- | :--- | :--- |
-| **R** | **Responsável** | Quem executa efetivamente a atividade ou elemento d>
-| **A** | **Autoridade** | Quem aprova formalmente a entrega e tem autoridade f>
-| **C** | **Consultado** | Quem deve ser consultado em caso de dúvidas ou mudan>
-| **I** | **Informado** | Quem deve ser notificado sobre resultados, sem necess>
+| **R** | **Responsável** | Quem executa efetivamente a atividade ou elemento >
+| **A** | **Autoridade** | Quem aprova formalmente a entrega e tem autoridade >
+| **C** | **Consultado** | Quem deve ser consultado em caso de dúvidas ou mudanças>
+| **I** | **Informado** | Pessoas ou grupos que precisam ser notificados sobre o progresso ou conclusão das atividades.>
 
 ![alt text](https://lyncas.net/wp-content/uploads/2024/09/RACI-1024x395-1.webp)
 ---
