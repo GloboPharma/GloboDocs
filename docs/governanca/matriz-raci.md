@@ -104,18 +104,12 @@ Base conceitual — não implica certificação formal.
 ---
 ## Atribuição de Responsabilidades
 
-- Documento: GOV-RACI-001
-- Owner: Gestão de TI
-- Aprovador: Diretoria Operacional
-- Classificação: Interno
-- Versão: 1.0
-- Data de Vigência: 2026-02-12
-- Próxima Revisão: 2027-02
-
-Última atualização: Março - 2026
-
-## 📚 Controle de Versão
-
 | Documento    | Owner        | Aprovado              | Classificação | Data de Vigência | Próxima Revisão |
 |--------------|--------------|-----------------------|---------------|------------------|-----------------|
 | GOV-RACI-001 | Gestão de TI | Diretoria Operacional | Interno       | 2026-02-12l      |     2027-02     |
+- 
+
+
+Última atualização: Março - 2026
+
+
