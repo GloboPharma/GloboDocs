@@ -113,3 +113,9 @@ Base conceitual — não implica certificação formal.
 - Próxima Revisão: 2027-02
 
 Última atualização: Março - 2026
+
+## 📚 Controle de Versão
+
+| Documento    | Owner        | Aprovado              | Classificação | Data de Vigência | Próxima Revisão |
+|--------------|--------------|-----------------------|---------------|------------------|-----------------|
+| GOV-RACI-001 | Gestão de TI | Diretoria Operacional | Interno       | 2026-02-12l      |     2027-02     |
