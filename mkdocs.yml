@@ -148,9 +148,9 @@ nav:
               - Integração SAP/AD: projetos/infraestrutura/integra-sap-ad.md
               - Documentação Sistêmica: projetos/infraestrutura/documentação-sistemica.md
     - Helpdesk:
-              - Inventario de Softwares: ti/Helpdesk/firewall.md
-              - Laudo Equipamentos Produção: ti/Helpdesk/firewall.md
-              - Troca de Equipamentos Depreciados: ti/Helpdesk/firewall.md
+              - Inventario de Softwares: projetos/HelpDesk/inventario-softwares.md
+              - Laudo Equipamentos Produção: projetos/HelpDesk//laudo-producao.md
+              - Troca de Equipamentos Depreciados: projetos/HelpDesk/depreciados.md
     - Sistemas:
               - Apontamentos Parciais - Produção: ti/sistemas/cogtive.md
               - BI: ti/sistemas/cogtive.md
