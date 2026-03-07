@@ -143,7 +143,7 @@ nav:
               - Politicas de SI: projetos/infraestrutura/politicas-si.md
               - Controle de Cotas de Armazenamento: projetos/infraestrutura/controle-cotas.md
               - Revisão de Configurações do Ambiente Google: projetos/infraestrutura/ambiente-google.md
-              - Revisão de Configurações do Ambiente: BitDefender /projetos/infraestrutura/ambiente-bitdefender.md
+              - Revisão de Configurações do Ambiente BitDefender: /projetos/infraestrutura/ambiente-bitdefender.md
               - Telefonia IP: projetos/infraestrutura/telefonia-ip.md
               - Integração SAP/AD: projetos/infraestrutura/integra-sap-ad.md
               - Documentação Sistêmica: projetos/infraestrutura/documentação-sistemica.md
