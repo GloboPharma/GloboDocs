@@ -140,14 +140,13 @@ nav:
   - Projetos:
     - Infraestrutura:
               - Qualificação de Infraestrutura: projetos/infraestrutura/qualificacao-infra.md
-              - Politicas de SI: ti/infraestrutura/firewall.md
-              - Controle de Cotas de Armazenamento: ti/infraestrutura/firewall.md
-              - Revisão de Configurações do Ambiente Google: ti/infraestrutura/firewall.md
-              - Revisão de Configurações do Amebiente Bitdefender: ti/infraestrutura/firewall.md
-              - Revisão de Politicas do Firewall: ti/infraestrutura/firewall.md
-              - Telefonia IP: ti/infraestrutura/firewall.md
-              - Integração SAP/AD: ti/infraestrutura/firewall.md
-              - Documentação Sistêmica: ti/infraestrutura/firewall.md
+              - Politicas de SI: projetos/infraestrutura/politicas-si.md
+              - Controle de Cotas de Armazenamento: projetos/infraestrutura/controle-cotas.md
+              - Revisão de Configurações do Ambiente Google: projetos/infraestrutura/ambiente-google.md
+              - Revisão de Configurações do Ambiente: BitDefender /projetos/infraestrutura/ambiente-bitdefender.md
+              - Telefonia IP: projetos/infraestrutura/telefonia-ip.md
+              - Integração SAP/AD: projetos/infraestrutura/integra-sap-ad.md
+              - Documentação Sistêmica: projetos/infraestrutura/documentação-sistemica.md
     - Helpdesk:
               - Inventario de Softwares: ti/Helpdesk/firewall.md
               - Laudo Equipamentos Produção: ti/Helpdesk/firewall.md
