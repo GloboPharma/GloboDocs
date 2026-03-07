@@ -139,7 +139,7 @@ nav:
 
   - Projetos:
     - Infraestrutura:
-              - Qualificação de Infraestrutura: ti/infraestrutura/firewall.md
+              - Qualificação de Infraestrutura: ti/infraestrutura/qualificacao-infra.md
               - Politicas de SI: ti/infraestrutura/firewall.md
               - Controle de Cotas de Armazenamento: ti/infraestrutura/firewall.md
               - Revisão de Configurações do Ambiente Google: ti/infraestrutura/firewall.md
