@@ -36,4 +36,4 @@ A geração da CSR é o primeiro passo para informar à autoridade certificadora
 
 [ ] Instalação confirmada no WHM?
 
-![Sectigo Logo](imagens/sectigo-logo.png)
+![Sectigo Logo](docs/imagens/sectigo-logo.png)
