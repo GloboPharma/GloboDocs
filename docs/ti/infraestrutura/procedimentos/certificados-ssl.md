@@ -35,3 +35,5 @@ A geração da CSR é o primeiro passo para informar à autoridade certificadora
 [ ] Domínio wildcard (*) incluído na solicitação? 
 
 [ ] Instalação confirmada no WHM?
+
+![Sectigo Logo](imagens/sectigo-logo.png)
