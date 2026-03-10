@@ -98,6 +98,7 @@ nav:
               - Firewall: ti/infraestrutura/procedimentos/firewall.md
               - Servidores: ti/infraestrutura/procedimentos/servidores.md
               - Telefonia: ti/infraestrutura/procedimentos/telefonia.md
+              - Certificados SSL: ti/infraestrutura/procedimentos/certificados-ssl.md              
           - Configurações:
               - Firewall: ti/infraestrutura/configuracoes/firewall.md
               - Servidores: ti/infraestrutura/configuracoes/servidores.md
