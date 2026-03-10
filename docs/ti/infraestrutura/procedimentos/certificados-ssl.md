@@ -3,45 +3,4 @@
     Esta pagina ainda está em processo de publicação.
     Após validação o procedimento será incluso.
 
-# Procedimento para Renovação do Certificado SSL
-
-Este manual descreve as etapas necessárias para a atualização da assinatura TLS/SSL e instalação do novo certificado no servidor via WebHost Manager (WHM).
-
-## 1. Visão Geral
-* [cite_start]**Domínio:** `*.globopharma.com.br` [cite: 3, 4]
-* [cite_start]**Número do Pedido:** 121551 [cite: 4]
-* [cite_start]**Vencimento Atual:** 30 de março de 2026 [cite: 4]
-* [cite_start]**Data Recomendada para Atualização:** Até 10/03/2026 [cite: 3]
-
-## 2. Geração da Solicitação de Assinatura (CSR)
-Para iniciar o processo, é necessário gerar uma nova CSR no servidor:
-
-1. [cite_start]Acesse o link de suporte da Sectigo: [Como gerar CSR](https://www.sectigo.com.br/suporte/como-gerar-csr.php)[cite: 5].
-2. [cite_start]Selecione o servidor **Web Host Manager (WHM)**[cite: 5].
-3. [cite_start]Siga as instruções na tela do WHM[cite: 6]:
-    * [cite_start]Insira o domínio: `globopharma.com.br`[cite: 6].
-    * [cite_start]Preencha as informações de contato e empresa (Globo Pharma)[cite: 6].
-    * [cite_start]Defina uma senha para os segredos compartilhados[cite: 6].
-4. Clique em **Criar**. [cite_start]O sistema gerará a **CSR** e a **Chave Privada**[cite: 6].
-
-> **Importante:** Salve a Chave Privada em um local seguro. [cite_start]Ela será necessária na etapa de instalação[cite: 165].
-
-## 3. Solicitação de Reemissão
-Com a CSR em mãos:
-1. [cite_start]Acesse o link de reposição: [Sectigo Reposição](https://www.sectigo.com.br/reposicao)[cite: 3].
-2. [cite_start]Cole o conteúdo da CSR gerada (incluindo as tags `-----BEGIN CERTIFICATE REQUEST-----`)[cite: 7, 86].
-3. [cite_start]Aguarde o e-mail de confirmação com o novo certificado[cite: 163].
-
-## 4. Instalação do Certificado no WHM
-Após receber o e-mail com o certificado, siga estes passos para instalação:
-
-1. [cite_start]Acesse a interface **Instalar um certificado SSL em um domínio** no WHM[cite: 163].
-2. [cite_start]**Campo Certificado:** Abra o novo arquivo de certificado no Bloco de Notas, copie todo o conteúdo e cole neste campo[cite: 164].
-3. [cite_start]**Campo Chave Privada:** Cole a chave gerada no momento da requisição (Passo 2)[cite: 165].
-4. [cite_start]**Campo Pacote de Autoridade de Certificação (CABUNDLE):** Cole o pacote de raízes enviado por e-mail[cite: 165, 167].
-    * [cite_start]*Nota: Caso não tenha recebido, acione o suporte da Sectigo*[cite: 165].
-5. [cite_start]Clique em **Instalar**[cite: 166].
-
-## 5. Histórico de Solicitações
-* [cite_start]**Solicitação anterior:** Gerada com sucesso para `globopharma.com.br`[cite: 6].
-* [cite_start]**Nova solicitação (09/03/2026):** Atualizada para o domínio wildcard `*.globopharma.com.br`[cite: 85].
+Procedimento: Renovação de Certificado SSL (WHM)Este manual descreve o procedimento operacional padrão para a renovação de certificados SSL/TLS para os domínios da Globo Pharma, utilizando a plataforma Sectigo e o painel WebHost Manager (WHM).1. Dados do Certificado (Referência 2026)Domínio: *.globopharma.com.br Número do Pedido: 121551 Vencimento: 30 de março de 2026 Prazo Limite para Atualização: 10 de março de 2026 2. Geração da Solicitação de Assinatura (CSR)A geração da CSR é o primeiro passo para informar à autoridade certificadora os dados do servidor.Acesse o portal de suporte da Sectigo para geração de CSR.No WHM, acesse a interface Gerar uma Solicitação de Assinatura e Certificado SSL.Preencha as informações conforme os padrões da empresa:Domínios: globopharma.com.br (ou *.globopharma.com.br para wildcard).Cidade: Sao Jose da Lapa.Estado: Minas Gerais.País: BR (Brasil).Empresa: Globo Pharma.E-mail: marcelo.diniz@globopharma.com.br.Defina uma senha para a CSR e clique em Criar.2.1. Armazenamento da Chave PrivadaAo clicar em criar, o sistema gerará três blocos de texto importantes:Solicitação de Assinatura (CSR): Deve ser enviada à Sectigo.Chave Privada (Key): Nunca compartilhe este código. Ele deve ser colado no servidor durante a instalação.Certificado Autoassinado: Apenas para uso temporário.3. Reemissão do CertificadoApós gerar a CSR, é necessário solicitar a reemissão do certificado oficial.Acesse o link de reposição: https://www.sectigo.com.br/reposicao.Insira a CSR gerada no passo anterior (incluindo as tags -----BEGIN CERTIFICATE REQUEST-----).Validação: A Sectigo enviará um código de confirmação para os e-mails administrativos cadastrados (ex: admin@, webmaster@).Recebimento: Após a validação, você receberá o certificado final por e-mail.4. Instalação do Certificado no WHMCom o e-mail da Sectigo em mãos, siga o processo de instalação.No WHM, vá em Instalar um certificado SSL em um domínio.Campo Certificado: Abra o arquivo de certificado enviado (.crt) no Bloco de Notas, copie todo o conteúdo e cole neste campo.Campo Chave Privada: Cole a chave RSA gerada no Passo 2 deste manual.Pacote de Autoridade de Certificação (CABUNDLE): Cole o "Pacote de Raízes" enviado no e-mail.Nota: Se o pacote não for inserido, o certificado pode ser marcado como "não confiável" em alguns navegadores.Clique em Instalar.5. Referência de Códigos (Exemplos)Exemplo de CSR (Solicitação)
