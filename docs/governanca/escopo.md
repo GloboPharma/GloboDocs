@@ -1,5 +1,4 @@
 # Escopo de Governança de TI
-
 ---
 ## 📘 Objetivo
 
