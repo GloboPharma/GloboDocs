@@ -21,10 +21,10 @@ Antes de tudo, é interessante saber que a sigla RACI vem do inglês: Responsibl
 
 A implementação desta matriz no **GloboDocs** traz ganhos operacionais diretos:
 
-* **Aumento no Engajamento:** Reduz dúvidas e confusões, diminuindo o estresse >
-* **Treinamento Eficiente:** Foca nas competências que agregam valor real à fun>
-* **Economia de Tempo:** Apenas os colaboradores envolvidos no processo específ>
-* **Redução de Frustração:** Elimina o problema de não saber quem procurar para>
+* **Aumento no Engajamento:** Reduz dúvidas e confusões, diminuindo o estresse e aumentando o envolvimento da equipe. 
+* **Treinamento Eficiente:** Foca nas competências que agregam valor real à função executada, evitando perda de tempo.
+* **Economia de Tempo:** Apenas os colaboradores envolvidos no processo específico são convocados para reuniões.
+* **Redução de Frustração:** Elimina o problema de não saber quem procurar para obter soluções em níveis hierárquicos superiores.
 
 ---
 ## 🛠️ Guia de Implementação
@@ -34,15 +34,15 @@ Para aplicar o modelo na prática, podem ser utilizadas planilhas, editores de t
 ### 1. Identificação Estratégica
 * Identifique os projetos vinculados aos objetivos estratégicos da organização.
 * Liste as etapas e tarefas principais verticalmente.
-* Defina quem executa (R), quem aprova (A) e quem será consultado (C) ou inform>
+* Defina quem executa (R), quem aprova (A) e quem será consultado (C) ou informado (I).
 
 !!! warning "Regra de Ouro da Governança"
-    Para toda atividade, deve existir pelo menos um **R** e exatamente um **A**>
+    Para toda atividade, deve existir pelo menos um **R** e exatamente um **A**. **Nunca** designe mais de um aprovador para a mesma atividade.
 
 ### 2. Alinhamento e Reuniões
-* Realize reuniões regulares com todos os identificados na matriz para que fiqu>
-* **Nota:** Pessoas marcadas como **I** (Informados) nem sempre precisam partic>
-* O modelo deve ser priorizado em processos críticos e de alto valor estratégic>
+* Realize reuniões regulares com todos os identificados na matriz para que fiquem cientes de suas responsabilidades.
+* **Nota:** Pessoas marcadas como **I** (Informados) nem sempre precisam participar de todas as reuniões.
+* O modelo deve ser priorizado em processos críticos e de alto valor estratégico para a empresa.
 
 ---
 ## 📝 Exemplo Prático: Sistemas (SAP / BEAS)
