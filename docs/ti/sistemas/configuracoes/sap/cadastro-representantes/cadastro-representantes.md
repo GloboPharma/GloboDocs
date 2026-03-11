@@ -59,4 +59,3 @@
 * [cite_start]Exemplos de modelos: `PV 150aimi`, `PV ACIMA 1m`, `PV DESVIO DE LIMITE`, entre outros[cite: 395, 399, 406].
 
 ---
-**Gostaria que eu gerasse um checklist rápido em PDF baseado nestas etapas para facilitar o acompanhamento do cadastro?**
