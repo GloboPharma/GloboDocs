@@ -34,7 +34,7 @@ Para aplicar o modelo na prática, podem ser utilizadas planilhas, editores de t
 ### 1. Identificação Estratégica
 * Identifique os projetos vinculados aos objetivos estratégicos da organização.
 * Liste as etapas e tarefas principais verticalmente.
-* Defina quem executa (R), quem aprova (A) e quem será consultado (C) ou informado (I).
+* Defina quem executa (**R**), quem aprova (**A**) e quem será consultado (**C**) ou informado (**I**).
 
 !!! warning "Regra de Ouro da Governança"
     Para toda atividade, deve existir pelo menos um **R** e exatamente um **A**. **Nunca** designe mais de um aprovador para a mesma atividade.
