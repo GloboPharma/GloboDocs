@@ -65,6 +65,6 @@ Nunca coloque o diretório de saída (site_dir) dentro da pasta de documentos (d
 4.  **Explicação:**  Discussão de conceitos e arquitetura.
 
 
-
+---
 
 **Última atualização: 2026**
