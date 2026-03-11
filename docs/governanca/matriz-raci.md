@@ -49,7 +49,7 @@ Para aplicar o modelo na prática, podem ser utilizadas planilhas, editores de t
 
 Abaixo, um modelo de preenchimento para as tecnologias do portal:
 
-| Atividade / Processo | Gestor de TI | Analista de Sistemas | Diretor Operacio>
+| Atividade / Processo | Gestor de TI | Analista de Sistemas | Diretor Operacional | Usuário Chave |
 | :--- | :---: | :---: | :---: | :---: |
 | **Configuração de Módulo SAP** | **A** | **R** | **I** | **C** |
 | **Manutenção Corretiva BEAS** | **A** | **R** | **I** | **I** |
