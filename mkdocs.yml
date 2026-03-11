@@ -116,13 +116,13 @@ nav:
           - Configurações:
               - Beas: ti/sistemas/configuracoes/beas.md
               - Cogtive: ti/sistemas/configuracoes/cogtive.md
-              - Glpi: ti/sistemas/configuracoes/glpi.md
+              - GLPI: ti/sistemas/configuracoes/glpi.md
               - Sap: ti/sistemas/configuracoes/sap.md
               - Sesuite: ti/sistemas/configuracoes/sesuite.md
               - Starsoft: ti/sistemas/configuracoes/starsoft.md
               - Suricato: ti/sistemas/configuracoes/suricato.md
               - WMS: ti/sistemas/configuracoes/wms.md
-
+              - Controle de Travas: ti/sistemas/configuracoes/controle de travas/aster.md
   - Fabrica:
 
     - Expedicao:
