@@ -4,9 +4,8 @@
     Após validação o procedimento será incluso.
 
 # Boas Práticas de Documentação (Docs-as-Code)
----
-Seguir estas diretrizes garante que a documentação do GloboDocs permaneça atualizada, fácil de navegar e com aparência profissional.
 
+Seguir estas diretrizes garante que a documentação do GloboDocs permaneça atualizada, fácil de navegar e com aparência profissional.
 ##1. Melhores Práticas de Escrita (Markdown)
 
 Links Relativos: Utilize links internos relativos para garantir que funcionem tanto localmente quanto no site publicado.
