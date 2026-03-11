@@ -59,10 +59,10 @@ Nunca coloque o diretório de saída (site_dir) dentro da pasta de documentos (d
 **Estrutura de Conteúdo:**
  Busque seguir a divisão em quatro partes:
  
-**Tutoriais:**  Aprendizado prático orientado a lições.
-**Guias de "Como Fazer":**  Passos para resolver problemas específicos.
-**Referência Técnica:**  Descrição teórica e técnica.
-**Explicação:**  Discussão de conceitos e arquitetura.
+1..**Tutoriais:**  Aprendizado prático orientado a lições.
+2..**Guias de "Como Fazer":**  Passos para resolver problemas específicos.
+3..**Referência Técnica:**  Descrição teórica e técnica.
+4..**Explicação:**  Discussão de conceitos e arquitetura.
 
 
 
