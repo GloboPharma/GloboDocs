@@ -27,5 +27,5 @@ A responsabilidade pela manutenção e atualização do GloboDocs é **compartil
 **Explore o menu lateral para aceder às categorias de procedimentos e configurações.**
 
 
-!!! tip "Dica: Uso de Admonitions"
-    Explore o menu lateral para aceder às categorias de procedimentos e configurações..
+!!! tip "Orientação:"
+    **Explore o menu lateral para aceder às categorias de procedimentos e configurações.**
