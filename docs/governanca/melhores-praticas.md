@@ -39,7 +39,7 @@ Para projetos em Python, utilize o plugin mkdocstrings para gerar documentação
 **Pipeline de CI/CD:**  
 Configure GitHub Actions ou GitLab CI para construir e implantar a documentação automaticamente ao realizar o push na branch principal (main ou master).
 
-***Publicação**  
+**Publicação**  
 Utilize o comando mkdocs gh-deploy para publicar o site diretamente no GitHub Pages.
 
 **Validação:**  
@@ -56,10 +56,15 @@ Não inicie nomes de pastas ou arquivos com ponto (ex: .manual.md), pois o MkDoc
 Nunca coloque o diretório de saída (site_dir) dentro da pasta de documentos (docs_dir) para evitar erros de recursão.
 
 
-Estrutura de Conteúdo: Busque seguir a divisão em quatro partes:
-Tutoriais: Aprendizado prático orientado a lições.
-Guias de "Como Fazer": Passos para resolver problemas específicos.
-Referência Técnica: Descrição teórica e técnica.
-Explicação: Discussão de conceitos e arquitetura.
+**Estrutura de Conteúdo:**
+ Busque seguir a divisão em quatro partes:
+ 
+**Tutoriais:**  Aprendizado prático orientado a lições.
+**Guias de "Como Fazer":**  Passos para resolver problemas específicos.
+**Referência Técnica:**  Descrição teórica e técnica.
+**Explicação:**  Discussão de conceitos e arquitetura.
 
-Última atualização: 2026
+
+
+
+**Última atualização: 2026**
