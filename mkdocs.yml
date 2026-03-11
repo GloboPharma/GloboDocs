@@ -114,14 +114,14 @@ nav:
               - Suricato: ti/sistemas/procedimentos/suricato.md
               - WMS: ti/sistemas/procedimentos/wms.md
           - Configurações:
-              - Beas: ti/sistemas/configuracoes/beas.md
-              - Cogtive: ti/sistemas/configuracoes/cogtive.md
-              - GLPI: ti/sistemas/configuracoes/glpi.md
-              - Sap: ti/sistemas/configuracoes/sap.md
-              - Sesuite: ti/sistemas/configuracoes/sesuite.md
-              - Starsoft: ti/sistemas/configuracoes/starsoft.md
-              - Suricato: ti/sistemas/configuracoes/suricato.md
-              - WMS: ti/sistemas/configuracoes/wms.md
+              - Beas: ti/sistemas/configuracoes/beas/beas.md
+              - Cogtive: ti/sistemas/configuracoes/cogtive/cogtive.md
+              - GLPI: ti/sistemas/configuracoes/glpi/glpi.md
+              - Sap: ti/sistemas/configuracoes/sap/sap.md
+              - Sesuite: ti/sistemas/configuracoes/sesuite/sesuite.md
+              - Starsoft: ti/sistemas/configuracoes/starsoft/starsoft.md
+              - Suricato: ti/sistemas/configuracoes/suricatoo/surica.md
+              - WMS: ti/sistemas/configuracoes/wms/wms.md
               - Controle de Travas: ti/sistemas/configuracoes/controle de travas/aster.md
   - Fabrica:
 
