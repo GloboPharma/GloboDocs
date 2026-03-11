@@ -7,7 +7,6 @@ Este documento define o escopo da Governança de Tecnologia da Informação na G
 A governança de TI assegura que os recursos tecnológicos suportem os objetivos do negócio, mitigando riscos e promovendo geração de valor.
 
 ---
-
 ## 🎯 Abrangência
 
 O escopo de governança cobre os seguintes domínios organizacionais:
@@ -48,7 +47,6 @@ O escopo de governança cobre os seguintes domínios organizacionais:
 - Suporte a auditorias internas e externas
 
 ---
-
 ## 🚫 Exclusões do Escopo
 
 Não fazem parte do escopo de governança:
@@ -60,7 +58,6 @@ Não fazem parte do escopo de governança:
 Essas atividades permanecem sob responsabilidade das áreas operacionais.
 
 ---
-
 ## 🧭 Stakeholders Envolvidos
 
 - Diretoria Operacional
@@ -70,7 +67,6 @@ Essas atividades permanecem sob responsabilidade das áreas operacionais.
 - Auditoria / Compliance
 
 ---
-
 ## 🔗 Integração com Processos Organizacionais
 
 A governança de TI se integra aos seguintes processos:
@@ -82,7 +78,6 @@ A governança de TI se integra aos seguintes processos:
 - Planejamento Estratégico Empresarial
 
 ---
-
 ## 📖 Referências Normativas
 
 Este escopo foi definido com base em boas práticas de mercado:
