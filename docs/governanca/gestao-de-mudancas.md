@@ -30,7 +30,7 @@ Toda mudança deve ser documentada contendo:
 * Descrição da alteração: O que exatamente será feito.
 * Justificativa: O motivo/benefício da mudança..
 * Plano de Implementação: O passo a passo técnico da execução.
-* **Plano de Contingência (Rollback):** Como voltar ao estado anterior se algo der errado ou não sair como o planejado durante a execução.
+***Plano de Contingência (Rollback):** Como voltar ao estado anterior se algo der errado ou não sair como o planejado durante a execução.
 
 ### 2. Avaliação e Aprovação
 Dependendo da criticidade, a mudança deve ser aprovada pelo **Comitê de Controlde Mudanças (CAB - Change Advisory Board)**,que avalia o impacto técnico e o risco de negócio.
