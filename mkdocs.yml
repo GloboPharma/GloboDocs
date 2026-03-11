@@ -9,7 +9,7 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
-  logo: assets/LogoLaranja.png
+  logo: assets/logobr.png
   favicon: assets/favicon.png
   language: pt-BR
 
