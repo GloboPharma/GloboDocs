@@ -94,8 +94,8 @@ Este escopo foi definido com base em boas práticas de mercado:
 | Aprovador: Diretoria Operacional  
 | Classificação: Interno  
 | Versão: 1.0  
-| Data de Vigência: 2026-02-12  
-| Próxima Revisão: 2027-02  
+| Data de Vigência: 2026-02  
+| Próxima Revisão:  2027-02  
 
 
 _Última atualização: 2026_
