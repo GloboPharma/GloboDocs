@@ -6,8 +6,8 @@ O objetivo da **Gestão de Mudanças** na Globo Pharma é garantir que métodos 
 
 * **Minimizar Riscos:** Avaliar o impacto de cada mudança antes de sua execução.
 * **Transparência:** Garantir que todas as áreas afetadas sejam comunicadas.
-* **Rastreabilidade:** Manter um histórico auditável de quem, quando e por que >
-* **Sucesso na Execução:** Reduzir o número de mudanças que precisam ser revert>
+* **Rastreabilidade:** Manter um histórico auditável de quem, quando e por que uma alteração foi realizada.
+* **Sucesso na Execução:** Reduzir o número de mudanças que precisam ser revertidas (rollback) ou que causam incidentes.
 
 ---
 
@@ -15,9 +15,9 @@ O objetivo da **Gestão de Mudanças** na Globo Pharma é garantir que métodos 
 
 No portal **GloboDocs**, classificamos as mudanças em três categorias:
 
-1.  **Mudança Padrão:** Mudanças de baixo risco, pré-autorizadas e que seguem u>
-2.  **Mudança Normal:** Segue o fluxo completo de avaliação, planejamento e apr>
-3.  **Mudança de Emergência:** Implementada o mais rápido possível para resolve>
+1.  **Mudança Padrão:**: Mudanças de baixo risco, pré-autorizadas e que seguem um procedimento (ou checklist) bem estabelecido e documentado.
+2.  **Mudança Normal:** Segue o fluxo completo de avaliação, planejamento e aprovação, geralmente passando por um Comitê de Consultivo de Mudanças (CAB).
+3.  **Mudança de Emergência:** Implementada o mais rápido possível para resolver um incidente crítico ou evitar uma interrupção iminente nos serviços.
 
 ---
 
@@ -27,16 +27,16 @@ Para que uma mudança seja implementada, ela deve seguir as etapas abaixo:
 
 ### 1. Registro da Requisição de Mudança (RFC)
 Toda mudança deve ser documentada contendo:
-* Descrição da alteração.
-* Justificativa (motivo da mudança).
-* Plano de Implementação.
-* **Plano de Contingência (Rollback):** Como voltar ao estado anterior se algo >
+* Descrição da alteração: O que exatamente será feito.
+* Justificativa: O motivo/benefício da mudança..
+* Plano de Implementação: O passo a passo técnico da execução.
+* **Plano de Contingência (Rollback):** Como voltar ao estado anterior se algo der errado ou não sair como o planejado durante a execução.
 
 ### 2. Avaliação e Aprovação
-Dependendo da criticidade, a mudança deve ser aprovada pelo **Comitê de Control>
+Dependendo da criticidade, a mudança deve ser aprovada pelo **Comitê de Controlde Mudanças (CAB - Change Advisory Board)**,que avalia o impacto técnico e o risco de negócio.
 
 **"Papéis e Responsabilidades"**
-    A aprovação de mudanças estratégicas segue a **Matriz RACI** definida na se>
+    A aprovação de mudanças estratégicas segue a **Matriz RACI** definida na seção de **Governança Corporativa**, garantindo que os responsáveis e interessados sejam devidamente consultados.
 
 ---
 
