@@ -21,7 +21,7 @@ theme:
         icon: material/weather-night
         name: Modo escuro
     - scheme: slate
-      primary: black
+      primary: grey
       accent: deep orange
       toggle:
         icon: material/weather-sunny
