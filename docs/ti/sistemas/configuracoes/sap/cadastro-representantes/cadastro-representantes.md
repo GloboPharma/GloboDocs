@@ -1,6 +1,6 @@
 # Procedimento de Cadastro de Representantes - Globo Pharma
 
-[cite_start]Este documento detalha o fluxo de processos para o cadastro de representantes (PF ou PJ) no portal ASTER, SAP B1 e Power BI[cite: 2, 3, 4].
+Este documento detalha o fluxo de processos para o cadastro de representantes no portal ASTER e no sistema SAP B1, conforme realizado pela Globo Pharma. O objetivo é garantir um procedimento padronizado e eficiente para a integração de novos representantes (pessoa física ou jurídica) nas plataformas empresariais.
 
 ---
 
