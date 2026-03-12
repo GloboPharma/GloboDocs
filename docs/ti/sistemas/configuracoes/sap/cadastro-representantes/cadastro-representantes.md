@@ -20,6 +20,9 @@ O cadastro do representante envolve a configuração em três sistemas principai
 * **Ação:** Criar o usuário no AD para acesso à rede e serviços internos (Cadastro realizado conforme a **“MATRIZ DE ACESSOS”**).
 
 
+![Configuração de Usuário no AD](ti/sistemas/configuracoes/sap/cadastro-representantes/imagem01.png)
+
+
 ### 2.2. Cadastro no SAP B1
 [cite_start]Configurações obrigatórias para gestão operacional[cite: 17]:
 * [cite_start]**Código do Usuário**: Nome e último nome (padrão Globo Pharma)[cite: 18].
