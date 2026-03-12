@@ -17,6 +17,7 @@ O processo começa com um **Informe de Contratação** que pode ser:
 * [cite_start]**Aplicabilidade**: Apenas para quem utilizará recursos internos como computadores ou o portal GLPI[cite: 12].
 * [cite_start]**Ação**: Criar usuário para acesso à rede seguindo a "MATRIZ DE ACESSOS"[cite: 13, 14].
 ![Configuração SAP B1](ti/sistemas/configuracoes/sap/cadastro-representante/imagem01.png)
+![](\ti\sistemas\configuracoes\sap\cadastro-representante/imagem01.png)
 
 
 ### 2.2. Cadastro no SAP B1
