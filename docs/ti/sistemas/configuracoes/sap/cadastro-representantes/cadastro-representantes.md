@@ -16,6 +16,8 @@ O processo começa com um **Informe de Contratação** que pode ser:
 ### 2.1. Active Directory (AD)
 * [cite_start]**Aplicabilidade**: Apenas para quem utilizará recursos internos como computadores ou o portal GLPI[cite: 12].
 * [cite_start]**Ação**: Criar usuário para acesso à rede seguindo a "MATRIZ DE ACESSOS"[cite: 13, 14].
+![alt text](ti/sistemas/configuracoes/sap/cadastro-representantes/imagem01.png)
+
 
 ### 2.2. Cadastro no SAP B1
 [cite_start]Configurações obrigatórias para gestão operacional[cite: 17]:
