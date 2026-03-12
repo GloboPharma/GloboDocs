@@ -7,8 +7,8 @@ Este documento detalha o fluxo de processos para o cadastro de representantes no
 ## 1. Início do Processo
 O processo começa com um **Informe de Contratação** que pode ser:
 
-1.  Aberto pelo Recursos Humanos (RH): Para representantes com vínculo empregatício. (Seguindo o procedimento IT-INF-000043-GERENCIAMENTO DE USUÁRIOS).
-2.  Aberto pela Área Comercial: Para representantes Pessoa Jurídica (PJ) que não possuem vínculo direto com o RH.
+1.  Aberto pelo **Recursos Humanos (RH)**: Para representantes com vínculo empregatício. (Seguindo o procedimento **IT-INF-000043-GERENCIAMENTO DE USUÁRIOS**).
+2.  Aberto pela **Área Comercial**: Para representantes Pessoa Jurídica (PJ) que não possuem vínculo direto com o RH.
 ---
 
 ## 2. Fluxo de Cadastro Passo a Passo
