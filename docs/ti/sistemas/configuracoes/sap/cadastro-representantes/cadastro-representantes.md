@@ -14,8 +14,8 @@ O processo começa com um **Informe de Contratação** que pode ser:
 ## 2. Fluxo de Cadastro Passo a Passo
 
 ### 2.1. Active Directory (AD)
-* [cite_start]**Aplicabilidade**: Apenas para quem utilizará recursos internos como computadores ou o portal GLPI[cite: 12].
-* [cite_start]**Ação**: Criar usuário para acesso à rede seguindo a "MATRIZ DE ACESSOS"[cite: 13, 14].
+**Aplicabilidade**: Apenas para quem utilizará recursos internos como computadores ou o portal GLPI.
+**Ação**ACriar o usuário no **AD** para acesso à rede e serviços internos(**Cadastro realizado conforme “MATRIZ DE ACESSOS”).
 
 
 
