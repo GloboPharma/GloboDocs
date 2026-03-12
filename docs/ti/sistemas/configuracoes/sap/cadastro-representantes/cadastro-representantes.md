@@ -15,7 +15,7 @@ O processo começa com um **Informe de Contratação** que pode ser:
 
 ### 2.1. Active Directory (AD)
 * **Aplicabilidade**: Apenas para quem utilizará recursos internos como computadores ou o portal GLPI.
-* **Ação**ACriar o usuário no **AD** para acesso à rede e serviços internos(**Cadastro realizado conforme “MATRIZ DE ACESSOS”).
+* **Ação**ACriar o usuário no **AD** para acesso à rede e serviços internos(**Cadastro realizado conforme “MATRIZ DE ACESSOS”**).
 
 
 
