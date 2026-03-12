@@ -114,12 +114,12 @@ nav:
               - Suricato: ti/sistemas/procedimentos/suricato.md
               - WMS: ti/sistemas/procedimentos/wms.md
           - Configurações:
-              - Beas: ti\sistemas\configuracoes/beas/beas.md
-              - Cogtive: ti/sistemas/configuracoes/cogtive/cogtive.md
-              - GLPI: ti/sistemas/configuracoes/glpi/glpi.md
-              - SAP:
-                  - SAP: ti/sistemas/configuracoes/sap/sap.md
-                  - Cadastro de Representantes: ti/sistemas/configuracoes/sap/cadastro-representantes/cadastro-representantes.md
+               - Beas: ti\sistemas\configuracoes/beas/beas.md
+               - Cogtive: ti/sistemas/configuracoes/cogtive/cogtive.md
+               - GLPI: ti/sistemas/configuracoes/glpi/glpi.md
+               - SAP:
+                    - SAP: ti/sistemas/configuracoes/sap/sap.md
+                    - Cadastro de Representantes: ti/sistemas/configuracoes/sap/cadastro-representantes/cadastro-representantes.md
               - SEsuite: ti/sistemas/configuracoes/sesuite/sesuite.md
               - Starsoft: ti/sistemas/configuracoes/starsoft/starsoft.md
               - Suricato: ti/sistemas/configuracoes/suricatoo/surica.md
