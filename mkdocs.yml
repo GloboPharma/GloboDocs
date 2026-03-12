@@ -118,8 +118,8 @@ nav:
                - Cogtive: ti/sistemas/configuracoes/cogtive/cogtive.md
                - GLPI: ti/sistemas/configuracoes/glpi/glpi.md
                - SAP:
-                    - SAP: ti/sistemas/configuracoes/sap/sap.md
-                    - Cadastro de Representantes: ti/sistemas/configuracoes/sap/cadastro-representantes/cadastro-representantes.md
+                   - SAP: ti/sistemas/configuracoes/sap/sap.md
+                   - Cadastro de Representantes: ti/sistemas/configuracoes/sap/cadastro-representantes/cadastro-representantes.md
               - SEsuite: ti/sistemas/configuracoes/sesuite/sesuite.md
               - Starsoft: ti/sistemas/configuracoes/starsoft/starsoft.md
               - Suricato: ti/sistemas/configuracoes/suricatoo/surica.md
