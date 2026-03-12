@@ -20,7 +20,7 @@ O cadastro do representante envolve a configuração em três sistemas principai
 * **Ação:** Criar o usuário no AD para acesso à rede e serviços internos (Cadastro realizado conforme a **“MATRIZ DE ACESSOS”**).
 
 
-![Configuração de Usuário no AD](ti/sistemas/configuracoes/sap/cadastro-representantes/imagem01.png)
+![Configuração de Usuário no AD](docs/imagens/usuário-ad.png)
 
 
 ### 2.2. Cadastro no SAP B1
