@@ -92,7 +92,7 @@ nav:
       - Procedimentos: qualidade/procedimentos/index.md
       - Registros: qualidade/registros/index.md
 
-    - Tecnologia da Informação:
+    - TI:
       - Infraestrutura:
           - Procedimentos:
               - Firewall: ti/infraestrutura/procedimentos/firewall.md
