@@ -15,8 +15,9 @@ O processo é iniciado com a abertura de um **Informe de Contratação**, que po
 O cadastro do representante envolve a configuração em três sistemas principais: **Active Directory (AD)**, **SAP B1** e **Portal ASTER**, seguido pela configuração no **Power BI**.
 
 ### 2.1. Criação de Usuário no Active Directory (AD)
+
 * **Aplicabilidade:** Apenas para representantes que utilizarão recursos internos da Globo Pharma, como computador ou o portal de chamados GLPI.
-* *
+* **Ação:** Criar o usuário no AD para acesso à rede e serviços internos (Cadastro realizado conforme a **“MATRIZ DE ACESSOS”**).
 
 
 ### 2.2. Cadastro no SAP B1
