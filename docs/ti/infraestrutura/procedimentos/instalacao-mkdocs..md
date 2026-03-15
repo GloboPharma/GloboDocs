@@ -1,79 +1,114 @@
-# Documentação Técnica — Implantação e Operação do GloboDocs
+📚 GloboDocs — Central de Documentação
 
-Documentar o processo de acesso, instalação, inicialização e organização estrutural do ambiente GloboDocs hospedado em servidor Debian, garantindo padronização operacional, rastreabilidade e segurança.
+Este repositório contém a infraestrutura e o conteúdo da documentação técnica da GloboPharma, gerenciada via MkDocs e hospedada em ambiente Debian.
 
-## 📋 Prerequisites
+🖥️ Informações do Ambiente
 
-1. Requisitos de Infraestrutura (Host)
-    Sistema Operacional: Servidor com Debian 13.
-    Identificação: Hostname definido como VS-DOCS-01.
-    Rede: Endereço IP fixo 10.11.0.149.
+Recurso
 
-2. Requisitos de Software e Linguagem
-    Linguagem de Programação: Python 3
-    Gerenciador de Pacotes: python3-pip.
-    Bibliotecas de Desenvolvimento: python3-dev.
-    Framework de Documentação: MkDocs.
-    Ambiente Isolado: Utilização de um ambiente virtual (virtualenv ou .venv) para     execução do serviço.
+Detalhes
 
-3. Requisitos de Acesso e Segurança
-    Protocolo de Comunicação: Acesso remoto via SSH.
-    Contas de Usuário: Disponibilidade de perfis "Operacional" (usuário globo) e "Administrativo" (usuário root).
-    Porta de Rede: Liberação da porta 8000 para tráfego HTTP.
+Hostname
 
-4. Requisitos de Integração (Versionamento)Ferramenta de Controle: 
-    Git para integração com repositório remoto.
-    Plataformas: Conta no GitHub (Usuário GloboPharma) e uso do software GitHub Desktop.
-    Autenticação: Token de acesso pessoal (PAT) do GitHub para sincronização segura.
+VS-DOCS-01
 
-## 🔧 Installation
+Endereço IP
 
-```bash
-Etapa 1: Preparação do Sistema Operacional
-Esta fase garante que o servidor Debian tenha os repositórios atualizados e as ferramentas base para o Python.
+10.11.0.149
 
-  Atualização de repositórios: sudo apt update.
-  Instalação de pacotes essenciais: sudo apt install python3 python3-pip python3-dev -y.
+Sistema Operacional
 
-Etapa 2: Criação da Estrutura do Projeto
-Comandos utilizados para gerar o diretório base e a estrutura de arquivos do MkDocs.
-  Criação do projeto: mkdocs new GloboDocs. 
-  Acesso ao diretório do projeto: cd /GloboDocs/GloboDocs (conforme o caminho de execução padrão).
+Debian 13
 
-Etapa 3: Preparação do Ambiente de Execução
-Procedimentos para isolar as dependências e preparar o serviço para inicialização.
-  Ativação do ambiente virtual: source .venv/bin/activate.
-  Comando de inicialização: mkdocs serve -a 10.11.0.149:8000.
+Interface Web
 
-Etapa 4: Organização Estrutural de Conteúdo
-Criação manual da árvore de diretórios para os departamentos da empresa.
+http://10.11.0.149:8000
 
-Criação de diretórios setoriais: ```bash
+🔐 Acesso via SSH
+
+Perfil
+
+Usuário
+
+Senha
+
+Operacional
+
+globo
+
+**********
+
+Administrativo
+
+root
+
+***********
+
+🛠️ Configuração e Instalação
+
+1. Preparação do Python
+
+Instalação das dependências necessárias para rodar o MkDocs no servidor:
+
+sudo apt update
+sudo apt install python3 python3-pip python3-dev -y
+
+
+2. Inicialização do Projeto
+
+Para criar a estrutura base do projeto:
+
+mkdocs new GloboDocs
+
+
+🚀 Operação do Serviço
+
+Para iniciar o servidor de documentação, acesse o diretório /GloboDocs/GloboDocs e execute:
+
+Ativar Ambiente Virtual:
+
+source .venv/bin/activate
+
+
+Subir o Servidor:
+
+mkdocs serve -a 10.11.0.149:8000
+
+
+📂 Estrutura de Conteúdo
+
+Os documentos estão organizados por departamentos para facilitar a navegação:
+
+Comando para criar as pastas setoriais:
+
 mkdir -p docs/producao docs/garantia docs/ti docs/gentegestao docs/financeiro docs/fiscal docs/comercial
-```
 
-## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Navegação: Edite o arquivo mkdocs.yml na seção nav: para registrar novos arquivos.
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+🔄 Fluxo de Atualização (GitHub)
 
-## 📝 License
+Credenciais e Segurança
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Usuário: GloboPharma
 
-## 👤 Author
+Senha: ********
 
-**Marcelo Diniz**
+🔑 Token: ****************************************
 
-- GitHub: [@GloboPharma](https://github.com/GloboPharma)
+(O token deve ser configurado localmente ou via variável de ambiente para evitar bloqueios de segurança).
 
----
+Sincronização via Terminal
 
-<div align="center">
-  Made with ❤️ by Marcelo Diniz
-</div>
+git add .
+git commit -m "docs: correção de segurança e atualização"
+git push origin main
+
+
+Sincronização via GitHub Desktop
+
+Realize o Commit to main.
+
+No menu Repository, selecione Pull para sincronizar.
+
+⚠️ Nota de Segurança: O GitHub bloqueia pushes com tokens expostos. Sempre mascare ou utilize variáveis de ambiente para chaves de acesso.
