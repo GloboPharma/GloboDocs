@@ -94,14 +94,14 @@ Usuário: GloboPharma
 
 Senha: ********
 
-🔑 Token: inserir o tokem
+🔑 Token: ****************************************
 
-(O token deve ser configurado localmente ou via variável de ambiente para evitar bloqueios de segurança).
+⚠️ IMPORTANTE: Nunca insira tokens reais ou senhas diretamente nos arquivos .md. O GitHub possui um sistema de varredura (Secret Scanning) que bloqueia o envio caso detecte chaves expostas.
 
 Sincronização via Terminal
 
 git add .
-git commit -m "docs: correção de segurança e atualização"
+git commit -m "docs: descrição da alteração"
 git push origin main
 
 
@@ -111,4 +111,18 @@ Realize o Commit to main.
 
 No menu Repository, selecione Pull para sincronizar.
 
-⚠️ Nota de Segurança: O GitHub bloqueia pushes com tokens expostos. Sempre mascare ou utilize variáveis de ambiente para chaves de acesso.
+🛠️ Solução de Problemas (Troubleshooting)
+
+Erro: "Push blocked: secret detected"
+
+Se o GitHub bloquear seu envio com esta mensagem, significa que ele detectou um token de acesso (PAT) ou senha no histórico de commits ou no texto do arquivo.
+
+Como resolver:
+
+Remova o segredo: Localize o arquivo mencionado no erro (ex: instalacao-mkdocs..md) e substitua o token real por asteriscos ****.
+
+Novo Commit: Salve o arquivo e faça um novo commit.
+
+Revogação: Por segurança, acesse sua conta no GitHub e revogue o token detectado, gerando um novo.
+
+Bypass (Não recomendado): Caso tenha certeza de que é um falso positivo ou uma informação pública, você pode clicar no link de "Bypass" fornecido na interface do GitHub Desktop para forçar o envio, mas o ideal é sempre remover o dado sensível.
