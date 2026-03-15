@@ -223,3 +223,103 @@ docs/
 - Versionar sempre no GitHub
 
 ---
+
+# Arquitetura do Ambiente GloboDocs
+
+O ambiente GloboDocs é responsável por hospedar a documentação técnica corporativa.
+
+## Componentes da Arquitetura
+
+- Servidor Debian 13
+- MkDocs
+- Repositório GitHub
+- GitHub Desktop para edição
+- Navegador para acesso ao portal
+
+---
+
+## Diagrama de Arquitetura
+
++--------------------+
+|  Usuário / Editor  |
+|  GitHub Desktop    |
++---------+----------+
+          |
+          | Commit / Push
+          |
++---------v----------+
+|      GitHub        |
+|  Repositório Docs  |
++---------+----------+
+          |
+          | Pull
+          |
++---------v------------------+
+|     Servidor VS-DOCS-01    |
+|                            |
+| Debian 13                  |
+| MkDocs                     |
+| Porta 8000                 |
++---------+------------------+
+          |
+          | HTTP
+          |
++---------v----------+
+|  Portal GloboDocs  |
+| http://10.11.0.149 |
++--------------------+
+
+
+# Fluxo de Sincronização GitHub → Servidor
+
+A documentação é versionada no GitHub e sincronizada com o servidor MkDocs.
+
+## Fluxo de Atualização
+
+```
+Editor
+  ↓
+GitHub Desktop
+  ↓
+Commit
+  ↓
+Push
+  ↓
+Repositório GitHub
+  ↓
+Servidor Debian
+  ↓
+git pull
+  ↓
+MkDocs atualizado
+```
+
+---
+
+## Processo de Atualização
+
+### 1 Commit
+
+```bash
+git add .
+git commit -m "Atualização da documentação"
+```
+
+### 2 Push
+
+```bash
+git push origin main
+```
+
+### 3 Atualizar servidor
+
+```bash
+cd /GloboDocs/GloboDocs
+git pull
+```
+
+### 4 Reiniciar serviço
+
+```bash
+mkdocs serve -a 10.11.0.149:8000
+```
