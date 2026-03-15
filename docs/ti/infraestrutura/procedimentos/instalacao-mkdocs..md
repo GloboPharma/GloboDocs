@@ -94,7 +94,7 @@ Usuário: GloboPharma
 
 Senha: ********
 
-🔑 Token: ****************************************
+🔑 Token: inserir o tokem
 
 (O token deve ser configurado localmente ou via variável de ambiente para evitar bloqueios de segurança).
 
