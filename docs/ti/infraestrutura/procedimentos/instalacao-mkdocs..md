@@ -1,130 +1,168 @@
-Documentação de Instalação – Servidor Debian 13 com MkDocs e GitHub Desktop
-1. Objetivo
+# Documentação de Instalação – Servidor Debian 13 com MkDocs e GitHub Desktop
 
-Este documento descreve o processo de instalação e configuração de um servidor Debian 13 para hospedagem de documentação utilizando MkDocs e sincronização com repositório GitHub através do GitHub Desktop.
+## 1. Objetivo
 
-O objetivo é permitir a edição local da documentação e sincronização automática com o repositório remoto.
+Este documento descreve o processo de instalação e configuração de um servidor **Debian 13** para hospedagem de documentação utilizando **MkDocs** e sincronização com repositório **GitHub** através do **GitHub Desktop**.
 
-2. Pré-requisitos
+O objetivo é permitir a edição local da documentação e sincronização com o repositório remoto.
+
+---
+
+# 2. Pré-requisitos
 
 Antes de iniciar, garantir que o servidor possua:
 
-Debian 13 instalado
+- Debian 13 instalado
+- Usuário com privilégios **sudo**
+- Acesso à internet
+- Python 3 instalado
+- Git instalado
 
-Usuário com privilégios sudo
+---
 
-Acesso à internet
-
-Python 3 instalado
-
-Git instalado
-
-3. Atualizar o Sistema
+# 3. Atualizar o Sistema
 
 Atualizar os pacotes do sistema.
 
+```bash
 sudo apt update
 sudo apt upgrade -y
-4. Instalar dependências
+```
+
+---
+
+# 4. Instalar dependências
 
 Instalar Python, pip e git.
 
+```bash
 sudo apt install -y python3 python3-pip git
+```
 
 Verificar instalação:
 
+```bash
 python3 --version
 pip3 --version
 git --version
-5. Instalar MkDocs
+```
+
+---
+
+# 5. Instalar MkDocs
 
 Instalar o MkDocs utilizando pip.
 
+```bash
 pip install mkdocs
+```
 
 Verificar instalação:
 
+```bash
 mkdocs --version
+```
 
-Opcionalmente instalar o tema Material:
+Opcionalmente instalar o tema Material.
 
+```bash
 pip install mkdocs-material
+```
 
-Tema utilizado pelo Material for MkDocs.
+---
 
-6. Criar projeto MkDocs
+# 6. Criar projeto MkDocs
 
 Criar um novo projeto de documentação.
 
+```bash
 mkdocs new documentacao
+```
 
 Estrutura criada:
 
+```
 documentacao/
 ├── docs/
 │   └── index.md
 └── mkdocs.yml
+```
 
 Entrar no diretório:
 
+```bash
 cd documentacao
-7. Testar servidor local
+```
+
+---
+
+# 7. Testar servidor local
 
 Executar o servidor de testes:
 
+```bash
 mkdocs serve -a 0.0.0.0:8000
+```
 
 Acessar no navegador:
 
+```
 http://IP_DO_SERVIDOR:8000
-8. Criar repositório no GitHub
+```
 
-Acessar o GitHub
+---
 
-Criar um novo repositório
+# 8. Criar repositório no GitHub
 
-Definir nome do projeto (ex: documentacao)
+1. Acessar https://github.com
+2. Criar um novo repositório
+3. Definir nome do projeto (ex: `documentacao`)
+4. Não inicializar com README
 
-Não inicializar com README
+---
 
-9. Inicializar Git no projeto
+# 9. Inicializar Git no projeto
 
 No diretório do projeto:
 
+```bash
 git init
 git add .
 git commit -m "Primeira versão da documentação"
+```
 
 Adicionar repositório remoto:
 
+```bash
 git remote add origin https://github.com/USUARIO/documentacao.git
+```
 
 Enviar arquivos:
 
+```bash
 git branch -M main
 git push -u origin main
-10. Sincronização utilizando GitHub Desktop
+```
 
-Instalar o GitHub Desktop na estação de trabalho.
+---
+
+# 10. Sincronização utilizando GitHub Desktop
+
+Instalar o **GitHub Desktop** na estação de trabalho.
 
 Passos:
 
-Abrir o GitHub Desktop
-
-Fazer login com a conta do GitHub
-
-Selecionar Clone Repository
-
-Escolher o repositório criado
-
-Editar arquivos .md localmente
-
-Realizar commit
-
-Clicar em Push origin
+1. Abrir o GitHub Desktop
+2. Fazer login com a conta do GitHub
+3. Selecionar **Clone Repository**
+4. Escolher o repositório criado
+5. Editar arquivos `.md` localmente
+6. Realizar commit
+7. Clicar em **Push origin**
 
 Fluxo de trabalho:
 
+```
 Editar documentação
       ↓
 Commit no GitHub Desktop
@@ -132,48 +170,56 @@ Commit no GitHub Desktop
 Push para GitHub
       ↓
 Servidor sincronizado
-11. Gerar versão estática da documentação
+```
+
+---
+
+# 11. Gerar versão estática da documentação
 
 Para gerar o site estático:
 
+```bash
 mkdocs build
+```
 
 Arquivos gerados:
 
+```
 site/
-12. Publicação (Opcional)
+```
+
+---
+
+# 12. Publicação (Opcional)
 
 Publicar diretamente no GitHub Pages:
 
+```bash
 mkdocs gh-deploy
+```
 
-Isso cria automaticamente a branch gh-pages.
+Isso cria automaticamente a branch `gh-pages`.
 
-13. Estrutura recomendada da documentação
+---
+
+# 13. Estrutura recomendada da documentação
+
+```
 docs/
 ├── index.md
 ├── instalacao.md
 ├── servidores.md
 ├── procedimentos.md
 └── troubleshooting.md
-14. Boas práticas
+```
 
-Usar Markdown padrão
+---
 
-Criar uma página por procedimento
+# 14. Boas práticas
 
-Usar imagens para diagramas
+- Usar **Markdown padrão**
+- Criar uma página por procedimento
+- Usar imagens para diagramas
+- Versionar sempre no GitHub
 
-Versionar sempre no GitHub
-
-Se quiser, posso também te ajudar a montar:
-
-Estrutura profissional de documentação (padrão DevOps / SRE)
-
-Automação de deploy com GitHub Actions
-
-Servidor Debian servindo MkDocs via Nginx
-
-Sincronização automática do repositório no servidor
-
-Posso inclusive te gerar um repositório modelo completo de documentação com MkDocs pronto para usar.
+---
