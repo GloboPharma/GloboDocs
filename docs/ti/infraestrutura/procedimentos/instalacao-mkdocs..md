@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="http://globodocs.globopharma.com.br:8000/GloboPharma/GloboDocs/assets/Logo-BR-GD.jpg" alt="Documentação Técnica — Implantação e Operação do GloboDocs Logo" width="200"/>
+</div>
+
 # Documentação Técnica — Implantação e Operação do GloboDocs
 
 Documentar o processo de acesso, instalação, inicialização e organização estrutural do ambiente GloboDocs hospedado em servidor Debian, garantindo padronização operacional, rastreabilidade e segurança.
