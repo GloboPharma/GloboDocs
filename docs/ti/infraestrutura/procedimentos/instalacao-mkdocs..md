@@ -79,7 +79,7 @@ Usuário: GloboPharma
 Senha: Pha@2026 
 
 
-Token de Acesso: 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 
+Token de Acesso: inserrir o token de acesso 
 
 5.2 Fluxo de Atualização (Git CLI)
 Para atualizar o repositório via linha de comando:
