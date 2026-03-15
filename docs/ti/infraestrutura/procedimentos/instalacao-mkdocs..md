@@ -1,169 +1,179 @@
-# 📖 Modelo de Configuração e Instalação: MkDocs
+Documentação de Instalação – Servidor Debian 13 com MkDocs e GitHub Desktop
+1. Objetivo
 
-Este documento descreve o padrão de instalação e configuração do MkDocs no servidor virtualizado **VM-DOCS-01**, hospedado no cluster **GP-VMS-02**.
+Este documento descreve o processo de instalação e configuração de um servidor Debian 13 para hospedagem de documentação utilizando MkDocs e sincronização com repositório GitHub através do GitHub Desktop.
 
-## 🖥️ Informações do Ambiente
-* **Hostname:** `VM-DOCS-01`
-* **Host Físico/Grupo:** `GP-VMS-02`
-* **Sistema Operacional:** Debian GNU/Linux 13 (Trixie)
-* **Servidor Web:** Nginx
-* **Referências:** [Remontti Blog](https://blog.remontti.com.br/6110) | [MkDocs User Guide](https://www.mkdocs.org/user-guide/deploying-your-docs/)
+O objetivo é permitir a edição local da documentação e sincronização automática com o repositório remoto.
 
----
+2. Pré-requisitos
 
-## 🛠️ 1. Preparação do Servidor
+Antes de iniciar, garantir que o servidor possua:
 
-Atualize o sistema e instale as dependências necessárias para o Python e o servidor web.
+Debian 13 instalado
 
-```bash
-sudo apt update && sudo apt upgrade -y
-sudo apt install python3 python3-venv python3-pip nginx git -y
+Usuário com privilégios sudo
 
-📦 2. Instalação do MkDocs (Ambiente Virtual)
-Seguindo as normas do Debian 13 para evitar conflitos com o apt, utilizaremos um ambiente virtual (venv).
+Acesso à internet
 
-Bash
-# Definir diretório da aplicação
-sudo mkdir -p /var/www/mkdocs-site
-sudo chown $USER:$USER /var/www/mkdocs-site
-cd /var/www/mkdocs-site
+Python 3 instalado
 
-# Criar e ativar o ambiente virtual
-python3 -m venv venv
-source venv/bin/activate
+Git instalado
 
-# Instalar MkDocs e o tema Material
-pip install mkdocs mkdocs-material
+3. Atualizar o Sistema
 
-🏗️ 3. Estrutura do Projeto
-Inicie um novo projeto no diretório atual:
+Atualizar os pacotes do sistema.
 
-Bash
-mkdocs new .
-Arquivos Gerados:
-mkdocs.yml: Configurações de tema, plugins e navegação.
+sudo apt update
+sudo apt upgrade -y
+4. Instalar dependências
 
-docs/: Pasta contendo os arquivos .md da sua documentação.
+Instalar Python, pip e git.
 
-⚙️ 4. Configuração do mkdocs.yml
-Abaixo, um modelo base configurado com o tema Material (recomendado):
+sudo apt install -y python3 python3-pip git
 
-YAML
-site_name: Documentação Técnica - GP-VMS
-site_url: [http://docs.seu-dominio.internal](http://docs.seu-dominio.internal)
-repo_url: [https://github.com/seu-usuario/repo](https://github.com/seu-usuario/repo)
+Verificar instalação:
 
-theme:
-  name: material
-  palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-    - scheme: slate
-      primary: blue
-      accent: blue
-  features:
-    - navigation.tabs
-    - search.suggest
-    - search.highlight
+python3 --version
+pip3 --version
+git --version
+5. Instalar MkDocs
 
-nav:
-  - Home: index.md
-  - Servidores:
-    - VM-DOCS-01: servidores/docs-01.md
-  - Redes: rede/topologia.md
-  
-  O Gemini disse
-Aqui está o conteúdo estruturado em formato Markdown (.md), pronto para ser copiado e salvo como um arquivo de documentação (ex: INSTALL_MKDOCS.md) ou utilizado no seu repositório de infraestrutura.
+Instalar o MkDocs utilizando pip.
 
-Markdown
-# 📖 Modelo de Configuração e Instalação: MkDocs
+pip install mkdocs
 
-Este documento descreve o padrão de instalação e configuração do MkDocs no servidor virtualizado **VM-DOCS-01**, hospedado no cluster **GP-VMS-02**.
+Verificar instalação:
 
-## 🖥️ Informações do Ambiente
-* **Hostname:** `VM-DOCS-01`
-* **Host Físico/Grupo:** `GP-VMS-02`
-* **Sistema Operacional:** Debian GNU/Linux 13 (Trixie)
-* **Servidor Web:** Nginx
-* **Referências:** [Remontti Blog](https://blog.remontti.com.br/6110) | [MkDocs User Guide](https://www.mkdocs.org/user-guide/deploying-your-docs/)
+mkdocs --version
 
----
+Opcionalmente instalar o tema Material:
 
-## 🛠️ 1. Preparação do Servidor
+pip install mkdocs-material
 
-Atualize o sistema e instale as dependências necessárias para o Python e o servidor web.
+Tema utilizado pelo Material for MkDocs.
 
-```bash
-sudo apt update && sudo apt upgrade -y
-sudo apt install python3 python3-venv python3-pip nginx git -y
-📦 2. Instalação do MkDocs (Ambiente Virtual)
-Seguindo as normas do Debian 13 para evitar conflitos com o apt, utilizaremos um ambiente virtual (venv).
+6. Criar projeto MkDocs
 
-Bash
-# Definir diretório da aplicação
-sudo mkdir -p /var/www/mkdocs-site
-sudo chown $USER:$USER /var/www/mkdocs-site
-cd /var/www/mkdocs-site
+Criar um novo projeto de documentação.
 
-# Criar e ativar o ambiente virtual
-python3 -m venv venv
-source venv/bin/activate
+mkdocs new documentacao
 
-# Instalar MkDocs e o tema Material
-pip install mkdocs mkdocs-material
-🏗️ 3. Estrutura do Projeto
-Inicie um novo projeto no diretório atual:
+Estrutura criada:
 
-Bash
-mkdocs new .
-Arquivos Gerados:
-mkdocs.yml: Configurações de tema, plugins e navegação.
+documentacao/
+├── docs/
+│   └── index.md
+└── mkdocs.yml
 
-docs/: Pasta contendo os arquivos .md da sua documentação.
+Entrar no diretório:
 
-⚙️ 4. Configuração do mkdocs.yml
-Abaixo, um modelo base configurado com o tema Material (recomendado):
+cd documentacao
+7. Testar servidor local
 
-YAML
-site_name: Documentação Técnica - GP-VMS
-site_url: [http://docs.seu-dominio.internal](http://docs.seu-dominio.internal)
-repo_url: [https://github.com/seu-usuario/repo](https://github.com/seu-usuario/repo)
+Executar o servidor de testes:
 
-theme:
-  name: material
-  palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-    - scheme: slate
-      primary: blue
-      accent: blue
-  features:
-    - navigation.tabs
-    - search.suggest
-    - search.highlight
+mkdocs serve -a 0.0.0.0:8000
 
-nav:
-  - Home: index.md
-  - Servidores:
-    - VM-DOCS-01: servidores/docs-01.md
-  - Redes: rede/topologia.md
+Acessar no navegador:
 
-🚀 5. Deploy com Nginx (Produção)Para disponibilizar a documentação na rede, geramos os arquivos estáticos e configuramos o Nginx.Gerar Build:Bashsource venv/bin/activate
+http://IP_DO_SERVIDOR:8000
+8. Criar repositório no GitHub
+
+Acessar o GitHub
+
+Criar um novo repositório
+
+Definir nome do projeto (ex: documentacao)
+
+Não inicializar com README
+
+9. Inicializar Git no projeto
+
+No diretório do projeto:
+
+git init
+git add .
+git commit -m "Primeira versão da documentação"
+
+Adicionar repositório remoto:
+
+git remote add origin https://github.com/USUARIO/documentacao.git
+
+Enviar arquivos:
+
+git branch -M main
+git push -u origin main
+10. Sincronização utilizando GitHub Desktop
+
+Instalar o GitHub Desktop na estação de trabalho.
+
+Passos:
+
+Abrir o GitHub Desktop
+
+Fazer login com a conta do GitHub
+
+Selecionar Clone Repository
+
+Escolher o repositório criado
+
+Editar arquivos .md localmente
+
+Realizar commit
+
+Clicar em Push origin
+
+Fluxo de trabalho:
+
+Editar documentação
+      ↓
+Commit no GitHub Desktop
+      ↓
+Push para GitHub
+      ↓
+Servidor sincronizado
+11. Gerar versão estática da documentação
+
+Para gerar o site estático:
+
 mkdocs build
-Os arquivos finais estarão na pasta /var/www/mkdocs-site/site.Configurar Virtual Host:Crie o arquivo /etc/nginx/sites-available/mkdocs:Nginxserver {
-    listen 80;
-    server_name docs.seu-dominio.internal; # Altere para o seu DNS
 
-    root /var/www/mkdocs-site/site;
-    index index.html;
+Arquivos gerados:
 
-    location / {
-        try_files $uri $uri/ =404;
-    }
-}
-Ativar Site:Bashsudo ln -s /etc/nginx/sites-available/mkdocs /etc/nginx/sites-enabled/
-sudo nginx -t
-sudo systemctl restart nginx
-🔄 6. Comandos de ManutençãoObjetivoComandoAtivar ambientesource venv/bin/activateTestar localmentemkdocs serve -a 0.0.0.0:8000Atualizar Sitemkdocs buildAdicionar Pluginspip install <nome-do-plugin>Nota: Lembre-se de configurar o backup da pasta /var/www/mkdocs-site/docs ou manter o projeto sincronizado via Git.
+site/
+12. Publicação (Opcional)
+
+Publicar diretamente no GitHub Pages:
+
+mkdocs gh-deploy
+
+Isso cria automaticamente a branch gh-pages.
+
+13. Estrutura recomendada da documentação
+docs/
+├── index.md
+├── instalacao.md
+├── servidores.md
+├── procedimentos.md
+└── troubleshooting.md
+14. Boas práticas
+
+Usar Markdown padrão
+
+Criar uma página por procedimento
+
+Usar imagens para diagramas
+
+Versionar sempre no GitHub
+
+Se quiser, posso também te ajudar a montar:
+
+Estrutura profissional de documentação (padrão DevOps / SRE)
+
+Automação de deploy com GitHub Actions
+
+Servidor Debian servindo MkDocs via Nginx
+
+Sincronização automática do repositório no servidor
+
+Posso inclusive te gerar um repositório modelo completo de documentação com MkDocs pronto para usar.
