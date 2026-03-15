@@ -20,8 +20,8 @@
 
 | Perfil | Usuário | Senha |
 | :--- | :--- | :--- |
-| **Operacional** | `globo` | [cite_start]`Pharma2026` [cite: 9] |
-| **Administrativo** | `root` | [cite_start]`Caravela424` [cite: 9] |
+| **Operacional** | `globo` | [cite_start]`  ` [cite: 9] |
+| **Administrativo** | `root` | [cite_start]`  ` [cite: 9] |
 
 ### 1.3 Acesso Web
 [cite_start]O serviço de documentação está disponível na rede interna[cite: 10, 11]:
