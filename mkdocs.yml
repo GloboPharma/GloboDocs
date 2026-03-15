@@ -96,6 +96,7 @@ nav:
       - Infraestrutura:
           - Procedimentos:
               - Firewall: ti/infraestrutura/procedimentos/firewall.md
+              - MKDOCS: ti/infraestrutura/procedimentos/instalacao-mkdocs.
               - Servidores: ti/infraestrutura/procedimentos/servidores.md
               - Telefonia: ti/infraestrutura/procedimentos/telefonia.md
               - Certificados SSL: ti/infraestrutura/procedimentos/certificados-ssl.md              
