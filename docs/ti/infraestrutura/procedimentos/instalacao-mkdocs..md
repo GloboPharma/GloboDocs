@@ -6,7 +6,6 @@ Este documento descreve o processo de instalação e configuração de um servid
 
 O objetivo é permitir a edição local da documentação e sincronização com o repositório remoto.
 
-Esta documentação estabelece as diretrizes para instalação, operação e manutenção do ambiente GloboDocs, visando a padronização, segurança e rastreabilidade dos processos.
 ---
 
 ## 2. Pré-requisitos
