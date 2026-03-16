@@ -5,8 +5,8 @@
 Este documento descreve o processo de instalação e configuração de um servidor **Debian 13** para hospedagem de documentação utilizando **MkDocs** e sincronização com repositório **GitHub** através do **GitHub Desktop**.
 
 O objetivo é permitir a edição local da documentação e sincronização com o repositório remoto.
-
 ---
+
 ## 2. Pré-requisitos
 
 Antes de iniciar, garantir que o servidor possua:
