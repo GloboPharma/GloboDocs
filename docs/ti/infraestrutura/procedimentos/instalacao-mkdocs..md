@@ -243,20 +243,22 @@ Siga os passos abaixo para ativar o ambiente e colocar o site no ar:
 
 ### 15.2 Ativar o virtualenv
 
-**Comando**: source .venv/bin/activate
+Comando: source .venv/bin/activate
 
 ### 15.3  Inicializar o serviço
 ```bash
 - mkdocs serve -a 10.11.0.149:8000.
 ```
 - Exemplo no terminal:
+```bash
   root@VS-DOCS-01:~/GloboDocs/GloboDocs# mkdocs serve -a 10.11.0.149:8000
+```
 
 ### 15.4 Sincronização com GitHub
 
 Após realizar as alterações locais, envie os arquivos para o repositório remoto:
 ```bash
-**Comando**: git push origin main
+Comando: git push origin main
 ```
 Dados de Autenticação:
 
