@@ -244,7 +244,7 @@ Siga os passos abaixo para ativar o ambiente e colocar o site no ar:
 
 ### 15.2 Ativar o virtualenv
 
-source .venv/bin/activate
+**Comando**: source .venv/bin/activate
 
 ### 15.3  Inicializar o serviço
 
@@ -257,12 +257,11 @@ source .venv/bin/activate
 
 Após realizar as alterações locais, envie os arquivos para o repositório remoto:
 
-git push origin main
+**Comando**: git push origin main
 
-Dados de Autenticação:
-Login: GloboPharma
-
-Token: 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
+- Dados de Autenticação:
+- Login: GloboPharma
+- Token: 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
 
 ⚠️ Nota: Caso o token expire, você deve gerar um novo no portal do GitHub da conta GloboPharma/GloboDocs.
 
