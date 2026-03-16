@@ -1,4 +1,4 @@
-# Documentação de Instalação – Servidor Debian 13 com MkDocs e GitHub Desktop
+# Documentação de Instalação – Servidor Debian com MkDocs e GitHub Desktop
 
 ## 1. Objetivo
 
@@ -7,7 +7,6 @@ Este documento descreve o processo de instalação e configuração de um servid
 O objetivo é permitir a edição local da documentação e sincronização com o repositório remoto.
 
 ---
-
 ## 2. Pré-requisitos
 
 Antes de iniciar, garantir que o servidor possua:
