@@ -6,6 +6,7 @@ Este documento descreve o processo de instalação e configuração de um servid
 
 O objetivo é permitir a edição local da documentação e sincronização com o repositório remoto.
 
+Esta documentação estabelece as diretrizes para instalação, operação e manutenção do ambiente GloboDocs, visando a padronização, segurança e rastreabilidade dos processos.
 ---
 
 ## 2. Pré-requisitos
@@ -219,7 +220,18 @@ docs/
 
 ---
 
-## 14. Boas práticas
+
+## 14. Credenciais de Acesso (SSH)
+
+O acesso ao servidor é restrito via SSH através das seguintes contas:
+---------------------------------------
+|Perfil         |Usuário |Senha       |
+|Operacional    |globo   |Pharma2026  |
+|Administrativo |root    |Caravela424 |
+---------------------------------------
+
+
+## 16. Boas práticas
 
 - Usar **Markdown padrão**
 - Criar uma página por procedimento
