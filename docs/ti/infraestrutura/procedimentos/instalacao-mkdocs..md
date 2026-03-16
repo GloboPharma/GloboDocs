@@ -267,6 +267,7 @@ Dados de Autenticação:
 
 ⚠️ Nota: Caso o token expire, você deve gerar um novo no portal do GitHub da conta GloboPharma/GloboDocs.
 
+---
 
 ## 16. Boas práticas
 
@@ -276,6 +277,17 @@ Dados de Autenticação:
 - Versionar sempre no GitHub
 
 ---
+
+## 17. Referências Utilizadas
+
+Este projeto de implantação baseia-se nas seguintes fontes de referência:
+
+- Documentação Oficial MkDocs: Guia de implantação e deploy (https://www.mkdocs.org/user-guide/deploying-your-docs/).
+- Blog Remontti: Guia prático de instalação em ambiente Linux (https://blog.remontti.com.br/6110).
+- Guia Interno GloboDocs: Documentação técnica de implantação e operação v.2026.
+
+---
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
