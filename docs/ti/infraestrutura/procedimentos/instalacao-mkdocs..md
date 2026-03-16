@@ -231,32 +231,40 @@ O acesso ao servidor é restrito via SSH através das seguintes contas:
 | Operacional | globo | Pharma2026 |
 | Administrativo | root | Caravela424 |
 
-## 15. Inicialização e Execução do Serviço MkDocs 
+## 🚀 15. Inicialização e Execução do Serviço MkDocs 
 
-1. Inicialização do Serviço MkDocs
 
- Acessar o diretório /GloboDocs/GloboDocs
-__________________________________________________________
+Para operar o sistema, acesse o diretório base da aplicação:
+`cd /GloboDocs/GloboDocs`
 
-2 Execução dos comandos a seguir:
+---
 
- 2.1 Ativar o virtualenv
-     Executar o comando: source .venv/bin/activate
-     Incializar o serviço: mkdocs serve -a 10.11.0.149:8000
-     Exemplo:
-     root@VS-DOCS-01:~/GloboDocs/GloboDocs# mkdocs serve -a 10.11.0.149:8000
-____________________________________________________________________________
+🛠️ 2. Execução do Serviço
 
-3. Envia as alterações para o GitHub
-   
-   git push origin main
-Sincronização:
-   Login: GloboPharma
+Siga os passos abaixo para ativar o ambiente e colocar o site no ar:
+
+2.1 Ativar o virtualenv
+```bash
+source .venv/bin/activate
+2.2 Inicializar o serviço
+Bash
+mkdocs serve -a 10.11.0.149:8000
+Exemplo no terminal:
+root@VS-DOCS-01:~/GloboDocs/GloboDocs# mkdocs serve -a 10.11.0.149:8000
+
+🔄 3. Sincronização com GitHub
+
+Após realizar as alterações locais, envie os arquivos para o repositório remoto:
+
+Bash
+git push origin main
+Dados de Autenticação:
+Login: GloboPharma
 
 ⚠️ Token: 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
 
-Ou gerar um novo token no portal do Github do GloboPharma/GloboDocs
-________________________________________________________________________
+Nota: Caso o token expire, você deve gerar um novo no portal do GitHub da conta GloboPharma/GloboDocs.
+
 
 ## 16. Boas práticas
 
