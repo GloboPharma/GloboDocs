@@ -12,11 +12,13 @@ O objetivo é permitir a edição local da documentação e sincronização com 
 
 Antes de iniciar, garantir que o servidor possua:
 
-- Debian 13 instalado
+- Sistema Operacional: Debian 13 instalado
 - Usuário com privilégios **sudo**
 - Acesso à internet
-- Python 3 instalado
+- Python: Python 3 
+- Pip: Gerenciador de pacotes pip para Python.
 - Git instalado
+- Permissões: Acesso root ou sudo pode ser necessário caso não utilize um ambiente virtual. 
 
 ---
 
