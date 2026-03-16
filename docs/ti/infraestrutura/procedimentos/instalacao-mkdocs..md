@@ -243,7 +243,7 @@ Para operar o sistema, acesse o diretório base da aplicação:
 Siga os passos abaixo para ativar o ambiente e colocar o site no ar:
 
 ### 15.2 Ativar o virtualenv
-```bash
+
 source .venv/bin/activate
 
 ### 15.3  Inicializar o serviço
