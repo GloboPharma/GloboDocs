@@ -276,3 +276,19 @@ Dados de Autenticação:
 - Versionar sempre no GitHub
 
 ---
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👤 Author
+
+**Marcelo Diniz**
+
+- GitHub: [@GloboPharma](https://github.com/GloboPharma)
+- Email: marcelo.diniz@globopharma.com.br
+
+---
+
+<div align="center">
+  Made with  by Marcelo Diniz
+</div>
