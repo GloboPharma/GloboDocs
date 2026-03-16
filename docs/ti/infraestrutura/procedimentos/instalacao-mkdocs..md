@@ -238,7 +238,7 @@ Para operar o sistema, acesse o diretório base da aplicação:
 
 ---
 
-### 🛠️ 15.1. Execução do Serviço
+### 15.1. Execução do Serviço
 
 Siga os passos abaixo para ativar o ambiente e colocar o site no ar:
 
@@ -259,7 +259,7 @@ Após realizar as alterações locais, envie os arquivos para o repositório rem
 
 **Comando**: git push origin main
 
-- Dados de Autenticação:
+Dados de Autenticação:
 - Login: GloboPharma
 - Token: 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
 
