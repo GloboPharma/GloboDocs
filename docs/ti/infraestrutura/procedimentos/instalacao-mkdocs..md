@@ -187,7 +187,7 @@ mkdocs build
 Arquivos gerados:
 
 ```
-site/
+site: http://globodocs.globopharma.com.br:8000
 ```
 
 ---
@@ -209,10 +209,12 @@ Isso cria automaticamente a branch `gh-pages`.
 ```
 docs/
 ├── index.md
-├── instalacao.md
-├── servidores.md
-├── procedimentos.md
-└── troubleshooting.md
+├── Governancainstalacao
+├── Administrativo
+├── Fabrica
+├── Projetos
+├── Templates
+└── Base de Conhecimento
 ```
 
 ---
