@@ -248,9 +248,10 @@ source .venv/bin/activate
 
 ### 15.3  Inicializar o serviço
 
-mkdocs serve -a 10.11.0.149:8000
-Exemplo no terminal:
-root@VS-DOCS-01:~/GloboDocs/GloboDocs# mkdocs serve -a 10.11.0.149:8000
+- mkdocs serve -a 10.11.0.149:8000.
+
+- Exemplo no terminal:
+  root@VS-DOCS-01:~/GloboDocs/GloboDocs# mkdocs serve -a 10.11.0.149:8000
 
 ### 15.4 Sincronização com GitHub
 
