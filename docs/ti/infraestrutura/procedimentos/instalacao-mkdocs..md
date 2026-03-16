@@ -256,17 +256,14 @@ root@VS-DOCS-01:~/GloboDocs/GloboDocs# mkdocs serve -a 10.11.0.149:8000
 
 Após realizar as alterações locais, envie os arquivos para o repositório remoto:
 
-Bash
 git push origin main
 
 Dados de Autenticação:
 Login: GloboPharma
 
----
+Token: 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
 
-⚠️ Token: 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
-
-Nota: Caso o token expire, você deve gerar um novo no portal do GitHub da conta GloboPharma/GloboDocs.
+⚠️ Nota: Caso o token expire, você deve gerar um novo no portal do GitHub da conta GloboPharma/GloboDocs.
 
 
 ## 16. Boas práticas
