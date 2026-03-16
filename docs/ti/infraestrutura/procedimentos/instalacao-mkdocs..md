@@ -281,7 +281,7 @@ Dados de Autenticação:
 ## 17. Referências Utilizadas
 
 !!! tip "Orientação:"
-Este projeto de implantação baseia-se nas seguintes fontes de referência:
+    **Este projeto de implantação baseia-se nas seguintes fontes de referência**
 
 - Documentação Oficial MkDocs: Guia de implantação e deploy (https://www.mkdocs.org/user-guide/deploying-your-docs/).
 - Blog Remontti: Guia prático de instalação em ambiente Linux (https://blog.remontti.com.br/6110).
