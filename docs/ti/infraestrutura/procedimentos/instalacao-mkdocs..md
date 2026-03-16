@@ -231,7 +231,7 @@ O acesso ao servidor é restrito via SSH através das seguintes contas:
 | Operacional | globo | Pharma2026 |
 | Administrativo | root | Caravela424 |
 
-## 🚀 15. Inicialização do Serviço MkDocs
+## 15. Inicialização do Serviço MkDocs
 
 Para operar o sistema, acesse o diretório base da aplicação:
 `cd /GloboDocs/GloboDocs`
@@ -260,6 +260,7 @@ Após realizar as alterações locais, envie os arquivos para o repositório rem
 **Comando**: git push origin main
 
 Dados de Autenticação:
+
 - Login: GloboPharma
 - Token: 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
 
