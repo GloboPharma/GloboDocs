@@ -280,6 +280,7 @@ Dados de Autenticação:
 
 ## 17. Referências Utilizadas
 
+!!! tip "Orientação:"
 Este projeto de implantação baseia-se nas seguintes fontes de referência:
 
 - Documentação Oficial MkDocs: Guia de implantação e deploy (https://www.mkdocs.org/user-guide/deploying-your-docs/).
