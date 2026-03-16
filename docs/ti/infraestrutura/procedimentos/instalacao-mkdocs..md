@@ -224,11 +224,12 @@ docs/
 ## 14. Credenciais de Acesso (SSH)
 
 O acesso ao servidor é restrito via SSH através das seguintes contas:
----------------------------------------
-|Perfil         |Usuário |Senha       |
-|Operacional    |globo   |Pharma2026  |
-|Administrativo |root    |Caravela424 |
----------------------------------------
+
+
+| Perfil | Usuário | Senha |
+| :--- | :--- | :--- |
+| Operacional | globo | Pharma2026 |
+| Administrativo | root | Caravela424 |
 
 
 ## 16. Boas práticas
