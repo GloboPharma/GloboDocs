@@ -12,7 +12,7 @@ O objetivo é permitir a edição local da documentação e sincronização com 
 
 Antes de iniciar, garantir que o servidor possua:
 
-- Sistema Operacional: Debian 13 instalado
+- Sistema Operacional: Debian 13 
 - Usuário com privilégios **sudo**
 - Acesso à internet
 - Python: Python 3 
@@ -78,13 +78,13 @@ pip install mkdocs-material
 Criar um novo projeto de documentação.
 
 ```bash
-mkdocs new documentacao
+mkdocs new GloboDocs
 ```
 
 Estrutura criada:
 
 ```
-documentacao/
+GloboDocs/
 ├── docs/
 │   └── index.md
 └── mkdocs.yml
@@ -93,7 +93,7 @@ documentacao/
 Entrar no diretório:
 
 ```bash
-cd documentacao
+cd GloboDocs
 ```
 
 ---
@@ -103,13 +103,13 @@ cd documentacao
 Executar o servidor de testes:
 
 ```bash
-mkdocs serve -a 0.0.0.0:8000
+mkdocs serve -a 10.11.0.149:8000
 ```
 
 Acessar no navegador:
 
 ```
-http://IP_DO_SERVIDOR:8000
+http://10.11.0.149:8000
 ```
 
 ---
@@ -118,7 +118,7 @@ http://IP_DO_SERVIDOR:8000
 
 1. Acessar https://github.com
 2. Criar um novo repositório
-3. Definir nome do projeto (ex: `documentacao`)
+3. Definir nome do projeto ('GloboDocs`)
 4. Não inicializar com README
 
 ---
@@ -136,7 +136,7 @@ git commit -m "Primeira versão da documentação"
 Adicionar repositório remoto:
 
 ```bash
-git remote add origin https://github.com/USUARIO/documentacao.git
+git remote add origin https://github.com/GloboPharma/GloboDocs.git
 ```
 
 Enviar arquivos:
@@ -155,7 +155,7 @@ Instalar o **GitHub Desktop** na estação de trabalho.
 Passos:
 
 1. Abrir o GitHub Desktop
-2. Fazer login com a conta do GitHub
+2. Fazer login com a conta do GitHub "(Usuário GitHub: GloboPharma./Token de Acesso: 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)"
 3. Selecionar **Clone Repository**
 4. Escolher o repositório criado
 5. Editar arquivos `.md` localmente
