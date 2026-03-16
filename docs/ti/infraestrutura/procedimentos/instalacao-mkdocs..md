@@ -8,7 +8,7 @@ O objetivo é permitir a edição local da documentação e sincronização com 
 
 ---
 
-# 2. Pré-requisitos
+## 2. Pré-requisitos
 
 Antes de iniciar, garantir que o servidor possua:
 
@@ -22,7 +22,7 @@ Antes de iniciar, garantir que o servidor possua:
 
 ---
 
-# 3. Atualizar o Sistema
+## 3. Atualizar o Sistema
 
 Atualizar os pacotes do sistema.
 
@@ -33,7 +33,7 @@ sudo apt upgrade -y
 
 ---
 
-# 4. Instalar dependências
+## 4. Instalar dependências
 
 Instalar Python, pip e git.
 
@@ -51,7 +51,7 @@ git --version
 
 ---
 
-# 5. Instalar MkDocs
+## 5. Instalar MkDocs
 
 Instalar o MkDocs utilizando pip.
 
@@ -73,7 +73,7 @@ pip install mkdocs-material
 
 ---
 
-# 6. Criar projeto MkDocs
+## 6. Criar projeto MkDocs
 
 Criar um novo projeto de documentação.
 
@@ -98,7 +98,7 @@ cd GloboDocs
 
 ---
 
-# 7. Testar servidor local
+## 7. Testar servidor local
 
 Executar o servidor de testes:
 
@@ -114,7 +114,7 @@ http://10.11.0.149:8000
 
 ---
 
-# 8. Criar repositório no GitHub
+## 8. Criar repositório no GitHub
 
 1. Acessar https://github.com
 2. Criar um novo repositório
@@ -123,7 +123,7 @@ http://10.11.0.149:8000
 
 ---
 
-# 9. Inicializar Git no projeto
+## 9. Inicializar Git no projeto
 
 No diretório do projeto:
 
@@ -148,7 +148,7 @@ git push -u origin main
 
 ---
 
-# 10. Sincronização utilizando GitHub Desktop
+## 10. Sincronização utilizando GitHub Desktop
 
 Instalar o **GitHub Desktop** na estação de trabalho.
 
@@ -176,7 +176,7 @@ Servidor sincronizado
 
 ---
 
-# 11. Gerar versão estática da documentação
+## 11. Gerar versão estática da documentação
 
 Para gerar o site estático:
 
@@ -192,7 +192,7 @@ site: http://globodocs.globopharma.com.br:8000
 
 ---
 
-# 12. Publicação (Opcional)
+## 12. Publicação (Opcional)
 
 Publicar diretamente no GitHub Pages:
 
@@ -204,12 +204,12 @@ Isso cria automaticamente a branch `gh-pages`.
 
 ---
 
-# 13. Estrutura recomendada da documentação
+## 13. Estrutura recomendada da documentação
 
 ```
 docs/
 ├── index.md
-├── Governancainstalacao
+├── Governanca
 ├── Administrativo
 ├── Fabrica
 ├── Projetos
@@ -219,7 +219,7 @@ docs/
 
 ---
 
-# 14. Boas práticas
+## 14. Boas práticas
 
 - Usar **Markdown padrão**
 - Criar uma página por procedimento
