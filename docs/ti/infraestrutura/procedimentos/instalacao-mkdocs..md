@@ -242,12 +242,12 @@ Para operar o sistema, acesse o diretório base da aplicação:
 Siga os passos abaixo para ativar o ambiente e colocar o site no ar:
 
 ### 15.2 Ativar o virtualenv
-
+```bash
 Comando: source .venv/bin/activate
-
+```
 ### 15.3  Inicializar o serviço
 ```bash
-- mkdocs serve -a 10.11.0.149:8000.
+Comando: mkdocs serve -a 10.11.0.149:8000.
 ```
 - Exemplo no terminal:
 ```bash
