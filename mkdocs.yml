@@ -93,6 +93,10 @@ nav:
       - Registros: qualidade/registros/index.md
 
     - TI:
+
+      - Arquitetura:
+          - Topologias:      
+            - Topologia SAP: ti/arquitetura/sap/topologia-sap.md
       - Infraestrutura:
           - Procedimentos:
               - Firewall: ti/infraestrutura/procedimentos/firewall.md
@@ -127,7 +131,8 @@ nav:
               - Starsoft: ti/sistemas/configuracoes/starsoft/starsoft.md
               - Suricato: ti/sistemas/configuracoes/suricatoo/surica.md
               - WMS: ti/sistemas/configuracoes/wms/wms.md
-              - Controle de Travas: ti/sistemas/configuracoes/controle de travas/aster.md
+              - Controle de Travas: ti/sistemas/configuracoes/controle de travas/aster.md          
+              
   - Fabrica:
 
     - Expedicao:
@@ -187,4 +192,3 @@ nav:
       - Troubleshooting: base-conhecimento/troubleshooting.md
       - Boas Práticas: base-conhecimento/boas-praticas.md
       - Glossário: base-conhecimento/glossario.md
-      - Topologia SAP: base-conhecimento/topologia-sap.md
