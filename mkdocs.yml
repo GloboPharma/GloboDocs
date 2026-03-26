@@ -184,6 +184,7 @@ nav:
 
   - Base de Conhecimento:
       - FAQ: base-de-conhecimento/faq.md
-      - Troubleshooting: base-de-conhecimento/troubleshooting.md
+      - Troubleshooting: base-conhecimento/troubleshooting.md
       - Boas Práticas: base-conhecimento/boas-praticas.md
-      - Glossário: base-de-conhecimento/glossario.md
+      - Glossário: base-conhecimento/glossario.md
+      - Topologia SAP: base-conhecimento/topologia-sap.md
