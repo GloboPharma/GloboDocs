@@ -3,4 +3,4 @@
 
 Abaixo está o diagrama da topologia:
 
-![Topologia SAP](base-conhecimento/topologia-sap/topologia.png)
+![Topologia SAP](base-conhecimento/topologia-sap/topologia-sap.png)
