@@ -1,8 +1,7 @@
 # Topologia SAP - Serviços e Servidores Cloud
 
 
-## 🔹 Topologia explodida do ambiente SAP 🚀
-Clicar na imagem para ir para tela cheia
+*Clicar na imagem para ir para tela cheia
 
 <div style="text-align:center; margin-top:20px;">
   <a href="topologia-sap.png" target="_blank">
