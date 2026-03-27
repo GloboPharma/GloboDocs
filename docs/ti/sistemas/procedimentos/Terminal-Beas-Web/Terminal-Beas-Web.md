@@ -10,4 +10,4 @@ Este procedimento tem como objetivo instruir na realização do cadastro de cola
 
 Para iniciar é necessário acessar a tela de colaboradores dentro do sistema b.eas
 
-![Cadastro](img/Menu colaboradores.png)
+![Cadastro](img/Menucolaboradores.png)
