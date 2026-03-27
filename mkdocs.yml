@@ -111,7 +111,7 @@ nav:
       - Sistemas:
           - Procedimentos:
               - Beas:
-                   - Cadastro de Terminal Beas Web: : ti/sistemas/procedimentos/Terminal-Beas-Web/Terminal-Beas-Web.md
+                   - Cadastro de Terminal Beas Web: ti/sistemas/procedimentos/Terminal-Beas-Web/Terminal-Beas-Web.md
               - Cogtive: ti/sistemas/procedimentos/cogtive.md
               - Glpi: ti/sistemas/procedimentos/glpi.md
               - Sap: ti/sistemas/procedimentos/sap.md
