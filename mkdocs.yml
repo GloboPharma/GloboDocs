@@ -110,7 +110,8 @@ nav:
               - Telefonia: ti/infraestrutura/configuracoes/telefonia.md
       - Sistemas:
           - Procedimentos:
-              - Beas: ti/sistemas/procedimentos/beas.md
+              - Beas:
+                   - Cadastro de Terminal Beas Web: ti/sistemas/procedimentos/Terminal-Beas-Web/Terminal-Beas-Web.md
               - Cogtive: ti/sistemas/procedimentos/cogtive.md
               - Glpi: ti/sistemas/procedimentos/glpi.md
               - Sap: ti/sistemas/procedimentos/sap.md
@@ -119,7 +120,7 @@ nav:
               - Suricato: ti/sistemas/procedimentos/suricato.md
               - WMS: ti/sistemas/procedimentos/wms.md
           - Configurações:
-              - Aster:ti/sistemas/configuracoes/beas/beas.md
+              - Aster: ti/sistemas/configuracoes/beas/beas.md
               - Beas: ti/sistemas/configuracoes/beas/beas.md
               - Cogtive: ti/sistemas/configuracoes/cogtive/cogtive.md
               - GLPI: ti/sistemas/configuracoes/glpi/glpi.md
