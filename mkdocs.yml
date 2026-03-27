@@ -119,7 +119,7 @@ nav:
               - Suricato: ti/sistemas/procedimentos/suricato.md
               - WMS: ti/sistemas/procedimentos/wms.md
           - Configurações:
-              - Aster:
+              - Aster:ti/sistemas/configuracoes/beas/beas.md
               - Beas: ti/sistemas/configuracoes/beas/beas.md
               - Cogtive: ti/sistemas/configuracoes/cogtive/cogtive.md
               - GLPI: ti/sistemas/configuracoes/glpi/glpi.md
