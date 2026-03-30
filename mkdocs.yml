@@ -1,4 +1,4 @@
-site_name: GloboDocs
+vsite_name: GloboDocs
 site_description: Portal Corporativo de Documentação e Base de Conhecimento - Globo Pharma
 site_author: Marcelo Diniz - Analista de Infraestrutura de TI
 site_url: https://github.com/GloboPharma/GloboDocs
@@ -115,7 +115,7 @@ nav:
               - Cogtive: ti/sistemas/procedimentos/cogtive.md
               - Glpi: ti/sistemas/procedimentos/glpi.md
               - Sap: 
-                   - Cadastro de conversões de UM: ti\sistemas\procedimentos\SAP\Cadastro-de-conversões-de UM.md  
+                   - Cadastro de conversões de UM: ti\sistemas\procedimentos\SAP\Cadastro-de-conversões-de-UM.md  
               - Sesuite: ti/sistemas/procedimentos/sesuite.md
               - Starsoft: ti/sistemas/procedimentos/starsoft.md
               - Suricato: ti/sistemas/procedimentos/suricato.md
