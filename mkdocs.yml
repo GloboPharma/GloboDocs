@@ -117,7 +117,7 @@ nav:
               - Sap: 
                    - Cadastro de conversões de UM: ti/sistemas/procedimentos/sap/CUM.md
               - Sesuite: 
-                    - Cadastro de Atividade: ti/sistemas/procedimentos/Cadastro-atividade/Cadastro-Atividade.md
+                    - Cadastro de Atividade: ti/sistemas/procedimentos/sesuite/Cadastro-Atividade.md
               - Starsoft: ti/sistemas/procedimentos/starsoft.md
               - Suricato: ti/sistemas/procedimentos/suricato.md
               - WMS: ti/sistemas/procedimentos/wms.md
