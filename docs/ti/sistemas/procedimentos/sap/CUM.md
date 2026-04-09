@@ -15,6 +15,6 @@ O **Grupo de UM** cadastrado no sistema é a base central das conversões. Ele �
 
 Confira abaixo como essa configuração aparece e funciona na prática dentro do sistema:
 
-![Grupo de Conversão de UM](conversaoUM.png)
+![](conversaoUM.png)
 
-![Conversão em Documentos de Compra e Venda](conversaoCompraEVenda.png)
+![](conversaoCompraEVenda.png)
